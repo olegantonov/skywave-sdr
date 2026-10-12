@@ -1,0 +1,9 @@
+.pio/
+.venv/
+__pycache__/
+build/
+.env
+*.bin
+*.elf
+*.map
+*.cs8
