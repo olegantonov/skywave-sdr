@@ -1,0 +1,42 @@
+[
+  {
+    "id": "esp32-s3",
+    "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf",
+    "sha256": "2d5a7cb7fd559d8d972bd88db32669c0196d23f22d7afaafb0f63d099b589a3f",
+    "status": "downloaded_locally",
+    "accessed": "2026-10-12",
+    "redistributed": false
+  },
+  {
+    "id": "codec",
+    "url": "https://www.ti.com/lit/ds/symlink/tlv320aic3204.pdf",
+    "sha256": "31b8b4e12b86f4e5c44a125ef671bac9a9d1dd6f20e6c37986da4f2945887ccd",
+    "status": "downloaded_locally",
+    "accessed": "2026-10-12",
+    "redistributed": false
+  },
+  {
+    "id": "clock",
+    "url": "https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si5351-B.pdf",
+    "status": "download_failed",
+    "error": "HTTP Error 403: Forbidden",
+    "accessed": "2026-10-12",
+    "redistributed": false
+  },
+  {
+    "id": "vhf",
+    "url": "https://www.dorji.com/docs/data/DRA818V.pdf",
+    "status": "download_failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "accessed": "2026-10-12",
+    "redistributed": false
+  },
+  {
+    "id": "uhf",
+    "url": "https://www.dorji.com/docs/data/DRA818U.pdf",
+    "status": "download_failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+    "accessed": "2026-10-12",
+    "redistributed": false
+  }
+]

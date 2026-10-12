@@ -1,0 +1,17 @@
+block,reference,quantity,stage,status,unit_cost_brl,notes
+controller,ESP32-S3-DevKitC-1 N8 or N8R8,1,interface,candidate,,Confirm board revision and USB connector; firmware does not require PSRAM
+display,SH1106 128x64 I2C module,1,interface,candidate,,Exact module MPN pending; 3.3V logic and supply compatibility required
+display_alternative,SSD1306 128x64 I2C module,1,interface,alternative,,Use instead of SH1106
+buttons,Normally open momentary switches,4,interface,MPN_pending,,PTT plus down up band; mechanical selection pending
+hf_codec,TLV320AIC3204,1,hf,candidate,,Stereo ADC and DAC; clocks power and analog routing pending
+hf_oscillator,Si5351A-B,1,hf,candidate,,Full ordering code and quadrature design pending
+hf_mixers,QSD and QSE mixers,1,hf,design_pending,,Topology switches bias and filtering not selected
+hf_filters,Band preselectors and output LPFs,1,hf,design_pending,,Separate networks per band; values and switching pending
+hf_pa,Driver and linear power amplifier,1,hf,design_pending,,No output power or transistor chosen
+vhf,DRA818V,1,vhf,candidate,,Optional economic FM path; no open IQ interface
+uhf,DRA818U,1,uhf,candidate,,Optional economic FM path; no open IQ interface
+vhf_uhf_sdr,Frequency converters and IQ front end,1,expansion,design_pending,,True SDR alternative to DRA818; uncosted
+audio,Microphone headphone and switching circuit,1,audio,design_pending,,Bias impedance gain mute and connectors pending
+rf_connectors,SMA connectors and matched antennas,3,rf,design_pending,,Separate HF VHF UHF; layout and MPN pending
+power,USB supply then battery charger protection and power-path,1,portable,design_pending,,Never power RF modules from ESP32 3.3V regulator
+enclosure,Portable case with side PTT and maintenance access,1,portable,design_pending,,No dimensions CAD or thermal validation yet
