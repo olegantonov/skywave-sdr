@@ -1,6 +1,7 @@
 """Check exported circuit artifacts and the physical inter-board pin contracts."""
 from pathlib import Path
 import json
+import hashlib
 import unittest
 import xml.etree.ElementTree as ET
 
@@ -49,6 +50,7 @@ class HardwareContracts(unittest.TestCase):
 
     def test_sources_and_artifacts(self):
         sources={s['id'] for s in json.loads((DATA/'sources.json').read_text())}
+        checks=json.loads((DATA/'reports/checks.json').read_text())
         for name,board in BOARDS.items():
             refs=[p['ref'] for p in board['parts']]
             self.assertEqual(len(refs),len(set(refs)))
@@ -57,5 +59,12 @@ class HardwareContracts(unittest.TestCase):
             for suffix in ['.kicad_sch','.kicad_pcb','.kicad_pro']:
                 self.assertTrue((DATA/'ecad'/(name+suffix)).is_file())
             self.assertTrue((DATA/'cad'/(name+'_assembly.step')).is_file())
+            for key,suffix in [('board_sha256','.kicad_pcb'),('schematic_sha256','.kicad_sch')]:
+                self.assertEqual(checks[name][key],hashlib.sha256((DATA/'ecad'/(name+suffix)).read_bytes()).hexdigest())
+            self.assertTrue(checks[name]['connectivity_and_clearance_passed'])
+            self.assertEqual(checks[name]['unconnected'],0)
+        manifest=json.loads((DATA/'fabrication_prototype/manifest.json').read_text())
+        for entry in manifest['files']:
+            self.assertEqual(entry['sha256'],hashlib.sha256((DATA/entry['file']).read_bytes()).hexdigest())
 
 if __name__=='__main__':unittest.main()
