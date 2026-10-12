@@ -50,6 +50,15 @@ void serial_status() {
 }
 
 void setup() {
+    for (int pin : {pins::TX_ARM, pins::VHF_PD, pins::UHF_PD,
+                    pins::CODEC_RESET_N, pins::LO_RESET_N}) {
+        digitalWrite(pin, LOW);
+        pinMode(pin, OUTPUT);
+    }
+    for (int pin : {pins::MODULE_A, pins::MODULE_B}) {
+        digitalWrite(pin, HIGH);
+        pinMode(pin, OUTPUT);
+    }
     Serial.begin(115200);
     for (int pin : {pins::PTT, pins::TUNE_DOWN, pins::TUNE_UP, pins::BAND}) {
         pinMode(pin, INPUT_PULLUP);
@@ -62,7 +71,7 @@ void setup() {
         display.setBusClock(100000);
         display.begin();
         display.setFont(u8x8_font_chroma48medium8_r);
-        display.drawString(0, 0, "SKYWAVE SDR D0");
+        display.drawString(0, 0, "SKYWAVE SDR D1");
     }
     const esp_err_t result = esp_task_wdt_init(5, true);
     if (result == ESP_OK || result == ESP_ERR_INVALID_STATE) {

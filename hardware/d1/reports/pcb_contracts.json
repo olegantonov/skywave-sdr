@@ -1,0 +1,34 @@
+{
+  "control": {
+    "pads_checked": 318,
+    "pins_nets_values_positions_passed": true
+  },
+  "hf": {
+    "pads_checked": 309,
+    "pins_nets_values_positions_passed": true
+  },
+  "vhf": {
+    "pads_checked": 100,
+    "pins_nets_values_positions_passed": true
+  },
+  "uhf": {
+    "pads_checked": 100,
+    "pins_nets_values_positions_passed": true
+  },
+  "lpf40": {
+    "pads_checked": 22,
+    "pins_nets_values_positions_passed": true
+  },
+  "lpf20": {
+    "pads_checked": 22,
+    "pins_nets_values_positions_passed": true
+  },
+  "lpf15": {
+    "pads_checked": 22,
+    "pins_nets_values_positions_passed": true
+  },
+  "lpf10": {
+    "pads_checked": 22,
+    "pins_nets_values_positions_passed": true
+  }
+}

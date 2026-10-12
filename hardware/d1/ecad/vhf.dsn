@@ -1,0 +1,532 @@
+(pcb "/home/daniel/skywave-sdr/hardware/d1/ecad/vhf.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "7.0.11+dfsg-1build4")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type power)
+      (property
+        (index 1)
+      )
+    )
+    (layer In2.Cu
+      (type power)
+      (property
+        (index 2)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (boundary
+      (path pcb 0  60000 -70000  0 -70000  0 0  60000 0  60000 -70000)
+    )
+    (via "Via[0-3]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 150)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component MountingHole_3.2mm_M3
+      (place H4 56000.000000 -66000.000000 front 0.000000 (PN MountingHole_3.2mm_M3))
+      (place H3 4000.000000 -45000.000000 front 0.000000 (PN MountingHole_3.2mm_M3))
+      (place H2 45000.000000 -4000.000000 front 0.000000 (PN MountingHole_3.2mm_M3))
+      (place H1 4000.000000 -4000.000000 front 0.000000 (PN MountingHole_3.2mm_M3))
+    )
+    (component SkyWave:Connector_Coaxial_SMA_Amphenol_132289_EdgeMount
+      (place J2 58000.000000 -14000.000000 front 90.000000 (PN "SMA 132289"))
+    )
+    (component SkyWave:Capacitor_SMD_C_0603_1608Metric
+      (place C12 45000.000000 -15000.000000 front 90.000000 (PN 7.5p))
+      (place C11 36000.000000 -15000.000000 front 90.000000 (PN 30p))
+      (place C10 27000.000000 -15000.000000 front 90.000000 (PN 30p))
+      (place C9 18000.000000 -15000.000000 front 90.000000 (PN 7.5p))
+      (place C8 53000.000000 -46000.000000 front 0.000000 (PN 1u))
+      (place C7 49000.000000 -25000.000000 front 0.000000 (PN 1u))
+      (place C6 23000.000000 -61000.000000 front 0.000000 (PN 100n))
+      (place C5 47000.000000 -54000.000000 front 0.000000 (PN 100n))
+      (place C3 7000.000000 -33000.000000 front 0.000000 (PN 100n))
+    )
+    (component SkyWave:Inductor_SMD_L_0805_2012Metric
+      (place L4 40500.000000 -14000.000000 front 0.000000 (PN 47n))
+      (place L3 31500.000000 -14000.000000 front 0.000000 (PN 82n))
+      (place L2 22500.000000 -14000.000000 front 0.000000 (PN 47n))
+    )
+    (component SkyWave:Resistor_SMD_R_0603_1608Metric
+      (place R7 19000.000000 -62000.000000 front 0.000000 (PN 10k))
+      (place R6 17000.000000 -53000.000000 front 0.000000 (PN 100k))
+      (place R5 30000.000000 -53000.000000 front 0.000000 (PN 100k))
+      (place R4 20000.000000 -50000.000000 front 0.000000 (PN 10k))
+      (place R3 53000.000000 -42000.000000 front 0.000000 (PN 1k))
+      (place R2 35000.000000 -65000.000000 front 0.000000 (PN 100k))
+      (place R1 39000.000000 -65000.000000 front 0.000000 (PN 402k))
+    )
+    (component "SkyWave:Package_TO_SOT_SMD_SOT-23"
+      (place Q1 26000.000000 -51000.000000 front 0.000000 (PN 2N7002))
+    )
+    (component "SkyWave:Package_TO_SOT_SMD_SOT-23-5"
+      (place U4 22000.000000 -57000.000000 front 0.000000 (PN SN74LVC1G04DBVR))
+      (place U3 50000.000000 -51000.000000 front 0.000000 (PN SN74LVC1G17DBVR))
+    )
+    (component SkyWave:Capacitor_SMD_C_0805_2012Metric
+      (place C4 7000.000000 -38000.000000 front 0.000000 (PN 22u))
+      (place C2 47000.000000 -64000.000000 front 0.000000 (PN 22u))
+      (place C1 33000.000000 -58000.000000 front 0.000000 (PN 10u))
+    )
+    (component SkyWave:VLS3015ET
+      (place L1 46000.000000 -59000.000000 front 0.000000 (PN 2.2u))
+    )
+    (component "SkyWave:Package_SO_VSSOP-8_3.0x3.0mm_P0.65mm"
+      (place U2 40000.000000 -59000.000000 front 0.000000 (PN TPS62160DGKR))
+    )
+    (component SkyWave:DRA818
+      (place U1 30000.000000 -37000.000000 front 0.000000 (PN DRA818V))
+    )
+    (component SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x05_P2.54mm_Vertical
+      (place J1 5000.000000 -51000.000000 front 0.000000 (PN CONTROL_INTERFACE))
+    )
+  )
+  (library
+    (image MountingHole_3.2mm_M3
+      (outline (path signal 150  3200 0  3180.58 -352.026  3122.55 -699.779  3026.61 -1039.04
+            2893.94 -1365.68  2726.14 -1675.75  2525.25 -1965.48  2293.7 -2231.35
+            2034.32 -2470.13  1750.23 -2678.93  1444.91 -2855.21  1122.04 -2996.84
+            785.554 -3102.08  439.531 -3169.67  88.174 -3198.78  -264.254 -3189.07
+            -613.474 -3140.64  -955.247 -3054.1  -1285.42 -2930.47  -1600 -2771.28
+            -1895.15 -2578.45  -2167.3 -2354.32  -2413.14 -2101.61  -2629.69 -1823.39
+            -2814.32 -1523.03  -2964.78 -1204.19  -3079.26 -870.731  -3156.36 -526.703
+            -3195.14 -176.281  -3195.14 176.281  -3156.36 526.703  -3079.26 870.731
+            -2964.78 1204.19  -2814.32 1523.03  -2629.69 1823.39  -2413.14 2101.61
+            -2167.3 2354.32  -1895.15 2578.45  -1600 2771.28  -1285.42 2930.47
+            -955.247 3054.1  -613.474 3140.64  -264.254 3189.07  88.174 3198.78
+            439.531 3169.67  785.554 3102.08  1122.04 2996.84  1444.91 2855.21
+            1750.23 2678.93  2034.32 2470.13  2293.7 2231.35  2525.25 1965.48
+            2726.14 1675.75  2893.94 1365.68  3026.61 1039.04  3122.55 699.779
+            3180.58 352.026  3200 0))
+      (outline (path signal 50  3450 0  3430.45 -366.713  3372.04 -729.27  3275.42 -1083.57
+            3141.69 -1425.58  2972.36 -1751.45  2769.36 -2057.47  2534.97 -2340.18
+            2271.86 -2596.37  1983.02 -2823.14  1671.7 -3017.93  1341.44 -3178.53
+            995.987 -3303.11  639.246 -3390.26  275.262 -3439  -91.841 -3448.78
+            -457.903 -3419.48  -818.777 -3351.43  -1170.37 -3245.42  -1508.71 -3102.63
+            -1829.95 -2924.68  -2130.46 -2713.6  -2406.83 -2471.78  -2655.93 -2201.94
+            -2874.93 -1907.16  -3061.36 -1590.77  -3213.11 -1256.35  -3328.45 -907.704
+            -3406.08 -548.769  -3445.11 -183.617  -3445.11 183.617  -3406.08 548.769
+            -3328.45 907.704  -3213.11 1256.35  -3061.36 1590.77  -2874.93 1907.16
+            -2655.93 2201.94  -2406.83 2471.78  -2130.46 2713.6  -1829.95 2924.68
+            -1508.71 3102.63  -1170.37 3245.42  -818.777 3351.43  -457.903 3419.48
+            -91.841 3448.78  275.262 3439  639.246 3390.26  995.987 3303.11
+            1341.44 3178.53  1671.7 3017.93  1983.02 2823.14  2271.86 2596.37
+            2534.97 2340.18  2769.36 2057.47  2972.36 1751.45  3141.69 1425.58
+            3275.42 1083.57  3372.04 729.27  3430.45 366.713  3450 0))
+      (keepout "" (circle F.Cu 3700))
+      (keepout "" (circle In1.Cu 3700))
+      (keepout "" (circle In2.Cu 3700))
+      (keepout "" (circle B.Cu 3700))
+    )
+    (image SkyWave:Connector_Coaxial_SMA_Amphenol_132289_EdgeMount
+      (outline (path signal 120  -3210 0  -3710 250))
+      (outline (path signal 120  -3710 250  -3710 -250))
+      (outline (path signal 120  -3710 -250  -3210 0))
+      (outline (path signal 50  14470 5580  -3040 5580))
+      (outline (path signal 50  14470 5580  14470 -5580))
+      (outline (path signal 50  -3040 -5580  -3040 5580))
+      (outline (path signal 50  14470 -5580  -3040 -5580))
+      (outline (path signal 50  -3040 -5580  -3040 5580))
+      (outline (path signal 50  14470 5580  -3040 5580))
+      (outline (path signal 50  14470 5580  14470 -5580))
+      (outline (path signal 50  14470 -5580  -3040 -5580))
+      (outline (path signal 100  -1910 3810  2540 3810))
+      (outline (path signal 100  -1910 -3810  -1910 -5080))
+      (outline (path signal 100  2540 -3810  -1910 -3810))
+      (outline (path signal 100  13970 -3810  4445 -3810))
+      (outline (path signal 100  2540 750  3540 0))
+      (outline (path signal 100  4445 3810  13970 3810))
+      (outline (path signal 100  13970 3810  13970 -3810))
+      (outline (path signal 100  -1910 5080  -1910 3810))
+      (outline (path signal 100  -1910 -5080  4445 -5080))
+      (outline (path signal 100  -1910 5080  4445 5080))
+      (outline (path signal 100  4445 -5080  4445 -3810))
+      (outline (path signal 100  3540 0  2540 -750))
+      (outline (path signal 100  2540 3810  2540 -3810))
+      (outline (path signal 100  4445 3810  4445 5080))
+      (pin Rect[T]Pad_1500x5080_um (rotate 90) 1 0 0)
+      (pin Rect[T]Pad_1500x5080_um (rotate 90) 2 0 -4250)
+      (pin Rect[T]Pad_1500x5080_um (rotate 90) 2@1 0 4250)
+      (pin Rect[B]Pad_1500x5080_um (rotate 90) 2@2 0 4250)
+      (pin Rect[B]Pad_1500x5080_um (rotate 90) 2@3 0 -4250)
+    )
+    (image SkyWave:Capacitor_SMD_C_0603_1608Metric
+      (outline (path signal 120  -140.58 -510  140.58 -510))
+      (outline (path signal 120  -140.58 510  140.58 510))
+      (outline (path signal 50  -1480 -730  -1480 730))
+      (outline (path signal 50  1480 730  1480 -730))
+      (outline (path signal 50  -1480 730  1480 730))
+      (outline (path signal 50  1480 -730  -1480 -730))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin RoundRect[T]Pad_900x950_225.856_um_0.000000_0 1 -775 0)
+      (pin RoundRect[T]Pad_900x950_225.856_um_0.000000_0 2 775 0)
+    )
+    (image SkyWave:Inductor_SMD_L_0805_2012Metric
+      (outline (path signal 120  -399.622 560  399.622 560))
+      (outline (path signal 120  -399.622 -560  399.622 -560))
+      (outline (path signal 50  -1750 850  1750 850))
+      (outline (path signal 50  -1750 -850  -1750 850))
+      (outline (path signal 50  1750 -850  -1750 -850))
+      (outline (path signal 50  1750 850  1750 -850))
+      (outline (path signal 100  1000 450  1000 -450))
+      (outline (path signal 100  -1000 450  1000 450))
+      (outline (path signal 100  -1000 -450  -1000 450))
+      (outline (path signal 100  1000 -450  -1000 -450))
+      (pin RoundRect[T]Pad_875x1200_219.582_um_0.000000_0 1 -1062.5 0)
+      (pin RoundRect[T]Pad_875x1200_219.582_um_0.000000_0 2 1062.5 0)
+    )
+    (image SkyWave:Resistor_SMD_R_0603_1608Metric
+      (outline (path signal 120  -237.258 -522.5  237.258 -522.5))
+      (outline (path signal 120  -237.258 522.5  237.258 522.5))
+      (outline (path signal 50  -1480 730  1480 730))
+      (outline (path signal 50  1480 730  1480 -730))
+      (outline (path signal 50  -1480 -730  -1480 730))
+      (outline (path signal 50  1480 -730  -1480 -730))
+      (outline (path signal 100  800 412.5  800 -412.5))
+      (outline (path signal 100  -800 412.5  800 412.5))
+      (outline (path signal 100  800 -412.5  -800 -412.5))
+      (outline (path signal 100  -800 -412.5  -800 412.5))
+      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
+      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 2 825 0)
+    )
+    (image "SkyWave:Package_TO_SOT_SMD_SOT-23"
+      (outline (path signal 50  -1920 1700  -1920 -1700))
+      (outline (path signal 50  -1920 -1700  1920 -1700))
+      (outline (path signal 50  1920 -1700  1920 1700))
+      (outline (path signal 50  1920 1700  -1920 1700))
+      (outline (path signal 120  0 -1560  650 -1560))
+      (outline (path signal 120  0 -1560  -650 -1560))
+      (outline (path signal 120  0 1560  650 1560))
+      (outline (path signal 120  0 1560  -650 1560))
+      (outline (path signal 100  -325 1450  650 1450))
+      (outline (path signal 100  650 1450  650 -1450))
+      (outline (path signal 100  650 -1450  -650 -1450))
+      (outline (path signal 100  -650 -1450  -650 1125))
+      (outline (path signal 100  -650 1125  -325 1450))
+      (pin RoundRect[T]Pad_1475x600_150.571_um_0.000000_0 1 -937.5 950)
+      (pin RoundRect[T]Pad_1475x600_150.571_um_0.000000_0 2 -937.5 -950)
+      (pin RoundRect[T]Pad_1475x600_150.571_um_0.000000_0 3 937.5 0)
+    )
+    (image "SkyWave:Package_TO_SOT_SMD_SOT-23-5"
+      (outline (path signal 50  -2050 1700  -2050 -1700))
+      (outline (path signal 50  -2050 -1700  2050 -1700))
+      (outline (path signal 50  2050 -1700  2050 1700))
+      (outline (path signal 50  2050 1700  -2050 1700))
+      (outline (path signal 120  0 -1560  800 -1560))
+      (outline (path signal 120  0 -1560  -800 -1560))
+      (outline (path signal 120  0 1560  800 1560))
+      (outline (path signal 120  0 1560  -800 1560))
+      (outline (path signal 100  -400 1450  800 1450))
+      (outline (path signal 100  800 1450  800 -1450))
+      (outline (path signal 100  800 -1450  -800 -1450))
+      (outline (path signal 100  -800 -1450  -800 1050))
+      (outline (path signal 100  -800 1050  -400 1450))
+      (pin RoundRect[T]Pad_1325x600_150.571_um_0.000000_0 1 -1137.5 950)
+      (pin RoundRect[T]Pad_1325x600_150.571_um_0.000000_0 2 -1137.5 0)
+      (pin RoundRect[T]Pad_1325x600_150.571_um_0.000000_0 3 -1137.5 -950)
+      (pin RoundRect[T]Pad_1325x600_150.571_um_0.000000_0 4 1137.5 -950)
+      (pin RoundRect[T]Pad_1325x600_150.571_um_0.000000_0 5 1137.5 950)
+    )
+    (image SkyWave:Capacitor_SMD_C_0805_2012Metric
+      (outline (path signal 120  -261.252 -735  261.252 -735))
+      (outline (path signal 120  -261.252 735  261.252 735))
+      (outline (path signal 50  1700 -980  -1700 -980))
+      (outline (path signal 50  -1700 -980  -1700 980))
+      (outline (path signal 50  1700 980  1700 -980))
+      (outline (path signal 50  -1700 980  1700 980))
+      (outline (path signal 100  -1000 625  1000 625))
+      (outline (path signal 100  -1000 -625  -1000 625))
+      (outline (path signal 100  1000 -625  -1000 -625))
+      (outline (path signal 100  1000 625  1000 -625))
+      (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 1 -950 0)
+      (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 2 950 0)
+    )
+    (image SkyWave:VLS3015ET
+      (outline (path signal 50  -1500 1500  1500 1500  1500 -1500  -1500 -1500))
+      (outline (path signal 50  -2000 2000  2000 2000  2000 -2000  -2000 -2000))
+      (pin Rect[T]Pad_1200x2800_um 1 -1200 0)
+      (pin Rect[T]Pad_1200x2800_um 2 1200 0)
+    )
+    (image "SkyWave:Package_SO_VSSOP-8_3.0x3.0mm_P0.65mm"
+      (outline (path signal 120  1500 1620  -1500 1620))
+      (outline (path signal 120  1500 -1620  -1500 -1620))
+      (outline (path signal 50  -3480 1750  3480 1750))
+      (outline (path signal 50  -3480 -1750  -3480 1750))
+      (outline (path signal 50  3480 1750  3480 -1750))
+      (outline (path signal 50  3480 -1750  -3480 -1750))
+      (outline (path signal 100  -1500 -1500  -1500 500))
+      (outline (path signal 100  -500 1500  -1500 500))
+      (outline (path signal 100  -500 1500  1500 1500))
+      (outline (path signal 100  1500 1500  1500 -1500))
+      (outline (path signal 100  1500 -1500  -1500 -1500))
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 1 -2200 975)
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 2 -2200 325)
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 3 -2200 -325)
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 4 -2200 -975)
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 5 2200 -975)
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 6 2200 -325)
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 7 2200 325)
+      (pin Rect[T]Pad_450x1450_um (rotate 270) 8 2200 975)
+    )
+    (image SkyWave:DRA818
+      (outline (path signal 50  -17800 9500  17800 9500  17800 -9500  -17800 -9500))
+      (outline (path signal 50  -19500 11200  19500 11200  19500 -11200  -19500 -11200))
+      (pin Rect[T]Pad_2200x3000_um 1 13350 -9500)
+      (pin Rect[T]Pad_2200x3000_um 12 -13350 9500)
+      (pin Rect[T]Pad_2200x3000_um 2 8900 -9500)
+      (pin Rect[T]Pad_2200x3000_um 13 -8900 9500)
+      (pin Rect[T]Pad_2200x3000_um 3 4450 -9500)
+      (pin Rect[T]Pad_2200x3000_um 14 -4450 9500)
+      (pin Rect[T]Pad_2200x3000_um 4 0 -9500)
+      (pin Rect[T]Pad_2200x3000_um 15 0 9500)
+      (pin Rect[T]Pad_2200x3000_um 5 -4450 -9500)
+      (pin Rect[T]Pad_2200x3000_um 16 4450 9500)
+      (pin Rect[T]Pad_2200x3000_um 6 -8900 -9500)
+      (pin Rect[T]Pad_2200x3000_um 17 8900 9500)
+      (pin Rect[T]Pad_2200x3000_um 7 -13350 -9500)
+      (pin Rect[T]Pad_2200x3000_um 18 13350 9500)
+      (pin Rect[T]Pad_3000x2200_um 8 -17800 -6900)
+      (pin Rect[T]Pad_3000x2200_um 9 -17800 -2300)
+      (pin Rect[T]Pad_3000x2200_um 10 -17800 2300)
+      (pin Rect[T]Pad_3000x2200_um 11 -17800 6900)
+    )
+    (image SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x05_P2.54mm_Vertical
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -11490))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  -1330 -11490  3870 -11490))
+      (outline (path signal 120  3870 1330  3870 -11490))
+      (outline (path signal 50  4350 -11950  4350 1800))
+      (outline (path signal 50  -1800 1800  -1800 -11950))
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (outline (path signal 50  -1800 -11950  4350 -11950))
+      (outline (path signal 100  3810 1270  3810 -11430))
+      (outline (path signal 100  0 1270  3810 1270))
+      (outline (path signal 100  -1270 -11430  -1270 0))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 100  3810 -11430  -1270 -11430))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 2540 0)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 4 2540 -2540)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 6 2540 -5080)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 8 2540 -7620)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 10 2540 -10160)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path In1.Cu 1700  0 0  0 0))
+      (shape (path In2.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_800x950_200.761_um_0.000000_0
+      (shape (polygon F.Cu 0  -400.761 275  -385.479 351.828  -341.959 416.959  -276.828 460.479
+            -199.999 475.76  200 475.761  276.828 460.479  341.959 416.959
+            385.479 351.828  400.76 274.999  400.761 -275  385.479 -351.828
+            341.959 -416.959  276.828 -460.479  199.999 -475.76  -200 -475.761
+            -276.828 -460.479  -341.959 -416.959  -385.479 -351.828  -400.76 -274.999
+            -400.761 275))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_875x1200_219.582_um_0.000000_0
+      (shape (polygon F.Cu 0  -438.332 381.25  -421.617 465.28  -374.018 536.518  -302.78 584.117
+            -218.75 600.832  218.75 600.832  302.78 584.117  374.018 536.518
+            421.617 465.28  438.332 381.25  438.332 -381.25  421.617 -465.28
+            374.018 -536.518  302.78 -584.117  218.75 -600.832  -218.75 -600.832
+            -302.78 -584.117  -374.018 -536.518  -421.617 -465.28  -438.332 -381.25
+            -438.332 381.25))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_900x950_225.856_um_0.000000_0
+      (shape (polygon F.Cu 0  -450.856 250  -433.664 336.431  -384.704 409.704  -311.431 458.664
+            -225 475.856  225 475.856  311.431 458.664  384.704 409.704
+            433.664 336.431  450.856 250  450.856 -250  433.664 -336.431
+            384.704 -409.704  311.431 -458.664  225 -475.856  -225 -475.856
+            -311.431 -458.664  -384.704 -409.704  -433.664 -336.431  -450.856 -250
+            -450.856 250))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0
+      (shape (polygon F.Cu 0  -500.951 475  -481.848 571.035  -427.449 652.449  -346.035 706.848
+            -249.999 725.95  250 725.951  346.035 706.848  427.449 652.449
+            481.848 571.035  500.95 474.999  500.951 -475  481.848 -571.035
+            427.449 -652.449  346.035 -706.848  249.999 -725.95  -250 -725.951
+            -346.035 -706.848  -427.449 -652.449  -481.848 -571.035  -500.95 -474.999
+            -500.951 475))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1325x600_150.571_um_0.000000_0
+      (shape (polygon F.Cu 0  -663.071 150  -651.609 207.621  -618.97 256.47  -570.121 289.109
+            -512.499 300.57  512.5 300.571  570.121 289.109  618.97 256.47
+            651.609 207.621  663.07 149.999  663.071 -150  651.609 -207.621
+            618.97 -256.47  570.121 -289.109  512.499 -300.57  -512.5 -300.571
+            -570.121 -289.109  -618.97 -256.47  -651.609 -207.621  -663.07 -149.999
+            -663.071 150))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1475x600_150.571_um_0.000000_0
+      (shape (polygon F.Cu 0  -738.071 150  -726.609 207.621  -693.97 256.47  -645.121 289.109
+            -587.499 300.57  587.5 300.571  645.121 289.109  693.97 256.47
+            726.609 207.621  738.07 149.999  738.071 -150  726.609 -207.621
+            693.97 -256.47  645.121 -289.109  587.499 -300.57  -587.5 -300.571
+            -645.121 -289.109  -693.97 -256.47  -726.609 -207.621  -738.07 -149.999
+            -738.071 150))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_1500x5080_um
+      (shape (rect B.Cu -750 -2540 750 2540))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2200x3000_um
+      (shape (rect F.Cu -1100 -1500 1100 1500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3000x2200_um
+      (shape (rect F.Cu -1500 -1100 1500 1100))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_450x1450_um
+      (shape (rect F.Cu -225 -725 225 725))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x2800_um
+      (shape (rect F.Cu -600 -1400 600 1400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x5080_um
+      (shape (rect F.Cu -750 -2540 750 2540))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect In1.Cu -850 -850 850 850))
+      (shape (rect In2.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-3]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (shape (circle In2.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net +3V3
+      (pins C6-1 C5-1 R7-2 U4-5 U3-5 J1-10)
+    )
+    (net +4V
+      (pins R4-2 C4-1 C3-1 R1-1 C2-1 L1-2 U2-6 U1-8)
+    )
+    (net +5V
+      (pins C1-1 U2-2 U2-3 J1-1)
+    )
+    (net AUDIO
+      (pins C8-2 J1-8)
+    )
+    (net AUDIO_RAW
+      (pins C8-1 U1-3)
+    )
+    (net BUCK_FB
+      (pins R2-1 R1-2 U2-5)
+    )
+    (net BUCK_SW
+      (pins L1-1 U2-7)
+    )
+    (net DRA_PTT_N
+      (pins R4-1 Q1-3 U1-5)
+    )
+    (net GND
+      (pins J2-2 J2-2@1 J2-2@2 J2-2@3 C12-2 C11-2 C10-2 C9-2 C6-2 C5-2 R6-2 R5-2 Q1-2
+        U4-3 U3-3 C4-2 C3-2 R2-2 C2-2 C1-2 U2-1 U2-4 U1-7 U1-9 U1-10 J1-2 J1-9)
+    )
+    (net LP1
+      (pins L3-1 C10-1 L2-2)
+    )
+    (net LP2
+      (pins L4-1 C11-1 L3-2)
+    )
+    (net MIC
+      (pins C7-1 J1-7)
+    )
+    (net MIC_IN
+      (pins C7-2 U1-18)
+    )
+    (net PD
+      (pins R6-1 U1-6 J1-6)
+    )
+    (net PTT_GATE
+      (pins R5-1 Q1-1 U4-4)
+    )
+    (net PTT_N
+      (pins R7-1 U4-2 J1-5)
+    )
+    (net RF_FILTERED
+      (pins J2-1 C12-1 L4-2)
+    )
+    (net RF_RAW
+      (pins L2-1 C9-1 U1-12)
+    )
+    (net UART_IN
+      (pins R3-1 J1-3)
+    )
+    (net UART_IN_R
+      (pins R3-2 U1-16)
+    )
+    (net UART_OUT
+      (pins U3-4 J1-4)
+    )
+    (net UART_OUT_RAW
+      (pins U3-2 U1-17)
+    )
+    (class kicad_default ""    AUDIO AUDIO_RAW BUCK_FB BUCK_SW DRA_PTT_N
+      GND LP1 LP2 MIC MIC_IN PD PTT_GATE PTT_N RF_FILTERED RF_RAW UART_IN
+      UART_IN_R UART_OUT UART_OUT_RAW
+      (circuit
+        (use_via Via[0-3]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 150)
+      )
+    )
+    (class supply0 +3V3 (circuit (use_via Via[0-3]_600:300_um)) (rule (width 300) (clearance 150)))
+    (class supply1 +4V (circuit (use_via Via[0-3]_600:300_um)) (rule (width 500) (clearance 150)))
+    (class supply2 +5V (circuit (use_via Via[0-3]_600:300_um)) (rule (width 500) (clearance 150)))
+  )
+  (wiring
+  )
+)

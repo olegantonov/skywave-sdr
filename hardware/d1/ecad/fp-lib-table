@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "SkyWave")(type "KiCad")(uri "${KIPRJMOD}/SkyWave.pretty")(options "")(descr "SkyWave custom footprints")))

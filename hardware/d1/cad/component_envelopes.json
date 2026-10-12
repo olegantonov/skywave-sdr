@@ -1,0 +1,3102 @@
+{
+  "control": [
+    {
+      "ref": "U1",
+      "bbox": [
+        17.95,
+        5.2,
+        1.6,
+        18.099999999999998,
+        25.6,
+        3.25
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        13.15,
+        35.5375,
+        1.6,
+        1.6999999999999993,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        13.15,
+        38.55,
+        1.6,
+        1.6999999999999993,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R2",
+      "bbox": [
+        19.15,
+        35.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "SW1",
+      "bbox": [
+        25.2,
+        41.2,
+        1.6,
+        6.100000000000001,
+        6.099999999999994,
+        4.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "SW2",
+      "bbox": [
+        26.2,
+        49.2,
+        1.6,
+        6.099999999999998,
+        6.099999999999994,
+        4.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "SW3",
+      "bbox": [
+        66.2,
+        75.2,
+        1.6,
+        6.099999999999994,
+        6.099999999999994,
+        4.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "SW4",
+      "bbox": [
+        83.2,
+        75.2,
+        1.6,
+        6.099999999999994,
+        6.099999999999994,
+        4.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "SW5",
+      "bbox": [
+        100.2,
+        75.2,
+        1.6,
+        6.099999999999994,
+        6.099999999999994,
+        4.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R3",
+      "bbox": [
+        60.15,
+        87.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R4",
+      "bbox": [
+        69.15,
+        87.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R5",
+      "bbox": [
+        78.15,
+        87.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R6",
+      "bbox": [
+        87.15,
+        87.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J1",
+      "bbox": [
+        111.68,
+        74.68,
+        1.6,
+        2.6399999999999864,
+        5.179999999999993,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J2",
+      "bbox": [
+        70.68,
+        22.68,
+        1.6,
+        2.6399999999999864,
+        10.259999999999998,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R7",
+      "bbox": [
+        76.15,
+        34.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R8",
+      "bbox": [
+        84.15,
+        34.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R9",
+      "bbox": [
+        47.15,
+        41.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        47.15,
+        44.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J3",
+      "bbox": [
+        105.68,
+        90.68,
+        1.6,
+        2.6399999999999864,
+        5.179999999999993,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U2",
+      "bbox": [
+        94.1,
+        51.6,
+        1.6,
+        3.8000000000000114,
+        6.799999999999997,
+        1.8
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        101.95,
+        54.325,
+        1.6,
+        2.0999999999999943,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        102.15,
+        58.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C5",
+      "bbox": [
+        85.2,
+        53.55,
+        1.6,
+        3.5999999999999943,
+        2.9000000000000057,
+        2.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R10",
+      "bbox": [
+        84.15,
+        58.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C6",
+      "bbox": [
+        10.95,
+        28.325,
+        1.6,
+        2.1000000000000014,
+        1.3500000000000014,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C7",
+      "bbox": [
+        11.15,
+        31.55,
+        1.6,
+        1.6999999999999993,
+        0.9000000000000021,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J4",
+      "bbox": [
+        0.275,
+        51.48,
+        1.6,
+        7.449999999999999,
+        9.040000000000006,
+        3.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R11",
+      "bbox": [
+        10.15,
+        58.5375,
+        1.6,
+        1.6999999999999993,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R12",
+      "bbox": [
+        10.15,
+        62.5375,
+        1.6,
+        1.6999999999999993,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R13",
+      "bbox": [
+        15.15,
+        56.5375,
+        1.6,
+        1.700000000000001,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R14",
+      "bbox": [
+        15.15,
+        59.5375,
+        1.6,
+        1.700000000000001,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C8",
+      "bbox": [
+        10.15,
+        66.55,
+        1.6,
+        1.6999999999999993,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U3",
+      "bbox": [
+        10.15,
+        52.5,
+        1.6,
+        1.6999999999999993,
+        3.0,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U4",
+      "bbox": [
+        52.15,
+        50.5,
+        1.6,
+        1.7000000000000028,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U5",
+      "bbox": [
+        61.15,
+        50.5,
+        1.6,
+        1.7000000000000028,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R15",
+      "bbox": [
+        55.15,
+        58.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U6",
+      "bbox": [
+        71.0,
+        48.0,
+        1.6,
+        4.0,
+        10.0,
+        1.75
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R16",
+      "bbox": [
+        64.15,
+        62.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R17",
+      "bbox": [
+        73.15,
+        62.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J5",
+      "bbox": [
+        53.68,
+        8.68,
+        1.6,
+        5.18,
+        25.5,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J6",
+      "bbox": [
+        18.68,
+        68.68,
+        1.6,
+        5.18,
+        12.799999999999997,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R18",
+      "bbox": [
+        19.15,
+        87.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J7",
+      "bbox": [
+        38.68,
+        68.68,
+        1.6,
+        5.18,
+        12.799999999999997,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R19",
+      "bbox": [
+        39.15,
+        87.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U7",
+      "bbox": [
+        95.0,
+        28.0,
+        1.6,
+        4.0,
+        10.0,
+        1.75
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R20",
+      "bbox": [
+        101.15,
+        39.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R21",
+      "bbox": [
+        108.15,
+        39.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C9",
+      "bbox": [
+        107.95,
+        43.325,
+        1.6,
+        2.0999999999999943,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C10",
+      "bbox": [
+        57.15,
+        38.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R22",
+      "bbox": [
+        57.15,
+        41.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C11",
+      "bbox": [
+        57.15,
+        45.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R23",
+      "bbox": [
+        57.15,
+        48.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C12",
+      "bbox": [
+        64.15,
+        32.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R24",
+      "bbox": [
+        69.15,
+        35.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C13",
+      "bbox": [
+        69.15,
+        39.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R25",
+      "bbox": [
+        69.15,
+        42.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C14",
+      "bbox": [
+        81.15,
+        38.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R26",
+      "bbox": [
+        81.15,
+        41.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C15",
+      "bbox": [
+        81.15,
+        45.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R27",
+      "bbox": [
+        81.15,
+        48.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J8",
+      "bbox": [
+        103.68,
+        12.68,
+        1.6,
+        2.6399999999999864,
+        5.18,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R28",
+      "bbox": [
+        97.15,
+        14.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000007,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C16",
+      "bbox": [
+        97.15,
+        19.55,
+        1.6,
+        1.6999999999999886,
+        0.8999999999999986,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R29",
+      "bbox": [
+        104.15,
+        22.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C17",
+      "bbox": [
+        94.15,
+        65.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "RV1",
+      "bbox": [
+        59.645,
+        64.54,
+        1.6,
+        9.630000000000003,
+        4.929999999999993,
+        10
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U8",
+      "bbox": [
+        50.585,
+        65.68,
+        1.6,
+        6.449999999999996,
+        10.259999999999991,
+        5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C18",
+      "bbox": [
+        41.95,
+        66.325,
+        1.6,
+        2.0999999999999943,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C19",
+      "bbox": [
+        58.15,
+        62.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C20",
+      "bbox": [
+        55.15,
+        79.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R30",
+      "bbox": [
+        60.15,
+        79.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C21",
+      "bbox": [
+        47.05,
+        84.8,
+        1.6,
+        6.400000000000006,
+        6.400000000000006,
+        11.2
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J9",
+      "bbox": [
+        57.68,
+        92.68,
+        1.6,
+        2.6400000000000006,
+        5.179999999999993,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C22",
+      "bbox": [
+        48.15,
+        54.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C23",
+      "bbox": [
+        62.15,
+        55.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C24",
+      "bbox": [
+        78.15,
+        58.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C25",
+      "bbox": [
+        88.15,
+        38.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ],
+  "hf": [
+    {
+      "ref": "C36",
+      "bbox": [
+        93.15,
+        65.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C5",
+      "bbox": [
+        28.15,
+        32.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C27",
+      "bbox": [
+        66.15,
+        90.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C14",
+      "bbox": [
+        51.15,
+        43.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C18",
+      "bbox": [
+        51.15,
+        61.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J2",
+      "bbox": [
+        100.68,
+        85.68,
+        1.6,
+        5.179999999999993,
+        7.719999999999999,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C24",
+      "bbox": [
+        66.15,
+        68.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R29",
+      "bbox": [
+        113.15,
+        67.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U2",
+      "bbox": [
+        25.45,
+        24.45,
+        1.6,
+        5.100000000000001,
+        5.100000000000001,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C32",
+      "bbox": [
+        73.15,
+        33.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C16",
+      "bbox": [
+        26.15,
+        40.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U7",
+      "bbox": [
+        43.0,
+        71.625,
+        1.6,
+        4.0,
+        8.75,
+        1.75
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        21.15,
+        19.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R9",
+      "bbox": [
+        56.15,
+        40.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R23",
+      "bbox": [
+        53.15,
+        86.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        22.15,
+        32.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "D1",
+      "bbox": [
+        102.55,
+        65.05,
+        1.6,
+        2.9000000000000057,
+        1.9000000000000057,
+        1.2
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C10",
+      "bbox": [
+        72.15,
+        14.55,
+        1.6,
+        1.6999999999999886,
+        0.8999999999999986,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C34",
+      "bbox": [
+        73.15,
+        38.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U1",
+      "bbox": [
+        19.15,
+        35.5,
+        1.6,
+        1.7000000000000028,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R25",
+      "bbox": [
+        60.15,
+        86.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U3",
+      "bbox": [
+        61.425,
+        16.425,
+        1.6,
+        3.1500000000000057,
+        3.1499999999999986,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R16",
+      "bbox": [
+        35.15,
+        58.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        24.15,
+        36.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U8",
+      "bbox": [
+        80.0,
+        38.0,
+        1.6,
+        4.0,
+        10.0,
+        1.75
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U9",
+      "bbox": [
+        80.0,
+        65.0,
+        1.6,
+        4.0,
+        10.0,
+        1.75
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R15",
+      "bbox": [
+        51.15,
+        58.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C30",
+      "bbox": [
+        88.15,
+        69.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C17",
+      "bbox": [
+        51.15,
+        55.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C37",
+      "bbox": [
+        15.95,
+        9.325,
+        1.6,
+        2.1000000000000014,
+        1.3500000000000014,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        25.15,
+        32.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C23",
+      "bbox": [
+        60.15,
+        68.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C21",
+      "bbox": [
+        39.15,
+        34.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R2",
+      "bbox": [
+        69.15,
+        19.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C9",
+      "bbox": [
+        34.15,
+        22.55,
+        1.6,
+        1.7000000000000028,
+        0.8999999999999986,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R19",
+      "bbox": [
+        53.15,
+        68.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J3",
+      "bbox": [
+        115.44,
+        49.87,
+        1.6,
+        15.97999999999999,
+        10.260000000000005,
+        8
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R5",
+      "bbox": [
+        44.15,
+        23.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C6",
+      "bbox": [
+        31.15,
+        32.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R17",
+      "bbox": [
+        33.15,
+        64.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C15",
+      "bbox": [
+        30.15,
+        40.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R28",
+      "bbox": [
+        98.15,
+        65.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        15.15,
+        36.55,
+        1.6,
+        1.700000000000001,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C35",
+      "bbox": [
+        93.15,
+        45.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U4",
+      "bbox": [
+        78.75,
+        15.45,
+        1.6,
+        4.5,
+        5.100000000000001,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C11",
+      "bbox": [
+        87.15,
+        23.55,
+        1.6,
+        1.6999999999999886,
+        0.8999999999999986,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R12",
+      "bbox": [
+        56.15,
+        52.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "Y1",
+      "bbox": [
+        58.35,
+        9.7,
+        1.6,
+        3.299999999999997,
+        2.6000000000000014,
+        0.8
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C20",
+      "bbox": [
+        26.15,
+        58.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U5",
+      "bbox": [
+        102.15,
+        73.5,
+        1.6,
+        1.6999999999999886,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R20",
+      "bbox": [
+        60.15,
+        64.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R13",
+      "bbox": [
+        51.15,
+        52.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R18",
+      "bbox": [
+        53.15,
+        64.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R14",
+      "bbox": [
+        56.15,
+        58.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C33",
+      "bbox": [
+        67.15,
+        38.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U6",
+      "bbox": [
+        43.0,
+        38.625,
+        1.6,
+        4.0,
+        8.75,
+        1.75
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R8",
+      "bbox": [
+        51.15,
+        34.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R24",
+      "bbox": [
+        53.15,
+        90.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R22",
+      "bbox": [
+        33.15,
+        86.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C31",
+      "bbox": [
+        67.15,
+        33.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R3",
+      "bbox": [
+        84.15,
+        11.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000007,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C28",
+      "bbox": [
+        38.15,
+        75.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C7",
+      "bbox": [
+        34.95,
+        30.325,
+        1.6,
+        2.0999999999999943,
+        1.3500000000000014,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C19",
+      "bbox": [
+        30.15,
+        58.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C22",
+      "bbox": [
+        27.15,
+        64.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C13",
+      "bbox": [
+        51.15,
+        37.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R21",
+      "bbox": [
+        66.15,
+        64.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R7",
+      "bbox": [
+        56.15,
+        34.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C25",
+      "bbox": [
+        27.15,
+        86.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "Q1",
+      "bbox": [
+        108.3,
+        63.5,
+        1.6,
+        1.4000000000000057,
+        3.0,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C29",
+      "bbox": [
+        88.15,
+        42.55,
+        1.6,
+        1.6999999999999886,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R4",
+      "bbox": [
+        108.15,
+        73.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R26",
+      "bbox": [
+        66.15,
+        86.5375,
+        1.6,
+        1.6999999999999886,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J1",
+      "bbox": [
+        8.68,
+        8.68,
+        1.6,
+        5.18,
+        25.5,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C8",
+      "bbox": [
+        34.15,
+        19.55,
+        1.6,
+        1.7000000000000028,
+        0.8999999999999986,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "K1",
+      "bbox": [
+        101.7,
+        49.94,
+        1.6,
+        6.61999999999999,
+        10.120000000000005,
+        5.2
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C12",
+      "bbox": [
+        46.95,
+        27.325,
+        1.6,
+        2.0999999999999943,
+        1.3500000000000014,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R27",
+      "bbox": [
+        92.15,
+        41.5375,
+        1.6,
+        1.6999999999999886,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R6",
+      "bbox": [
+        48.15,
+        23.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C26",
+      "bbox": [
+        60.15,
+        90.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R10",
+      "bbox": [
+        51.15,
+        40.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C38",
+      "bbox": [
+        15.95,
+        13.325,
+        1.6,
+        2.1000000000000014,
+        1.3500000000000014,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R11",
+      "bbox": [
+        35.15,
+        40.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ],
+  "vhf": [
+    {
+      "ref": "U4",
+      "bbox": [
+        21.15,
+        55.5,
+        1.6,
+        1.7000000000000028,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R5",
+      "bbox": [
+        29.15,
+        52.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C6",
+      "bbox": [
+        22.15,
+        60.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C7",
+      "bbox": [
+        48.15,
+        24.55,
+        1.6,
+        1.7000000000000028,
+        0.8999999999999986,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C9",
+      "bbox": [
+        17.55,
+        14.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J1",
+      "bbox": [
+        3.68,
+        49.68,
+        1.6,
+        5.18,
+        12.799999999999997,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        5.95,
+        37.325,
+        1.6,
+        2.1000000000000005,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R6",
+      "bbox": [
+        16.15,
+        52.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L3",
+      "bbox": [
+        30.45,
+        13.5,
+        1.6,
+        2.099999999999998,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U2",
+      "bbox": [
+        38.45,
+        57.45,
+        1.6,
+        3.0999999999999943,
+        3.0999999999999943,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        45.95,
+        63.325,
+        1.6,
+        2.0999999999999943,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L1",
+      "bbox": [
+        44.475,
+        57.475,
+        1.6,
+        3.049999999999997,
+        3.049999999999997,
+        1.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "Q1",
+      "bbox": [
+        25.3,
+        49.5,
+        1.6,
+        1.3999999999999986,
+        3.0,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R3",
+      "bbox": [
+        52.15,
+        41.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J2",
+      "bbox": [
+        55.44,
+        8.87,
+        1.6,
+        15.980000000000004,
+        10.26,
+        8
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L2",
+      "bbox": [
+        21.45,
+        13.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C8",
+      "bbox": [
+        52.15,
+        45.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C5",
+      "bbox": [
+        46.15,
+        53.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R2",
+      "bbox": [
+        34.15,
+        64.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C10",
+      "bbox": [
+        26.55,
+        14.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        31.95,
+        57.325,
+        1.6,
+        2.099999999999998,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R7",
+      "bbox": [
+        18.15,
+        61.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C12",
+      "bbox": [
+        44.55,
+        14.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U1",
+      "bbox": [
+        12.175,
+        27.475,
+        1.6,
+        35.650000000000006,
+        19.049999999999997,
+        6
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        6.15,
+        32.55,
+        1.6,
+        1.6999999999999993,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R4",
+      "bbox": [
+        19.15,
+        49.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U3",
+      "bbox": [
+        49.15,
+        49.5,
+        1.6,
+        1.7000000000000028,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        38.15,
+        64.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L4",
+      "bbox": [
+        39.45,
+        13.5,
+        1.6,
+        2.0999999999999943,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C11",
+      "bbox": [
+        35.55,
+        14.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ],
+  "uhf": [
+    {
+      "ref": "U2",
+      "bbox": [
+        38.45,
+        57.45,
+        1.6,
+        3.0999999999999943,
+        3.0999999999999943,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R7",
+      "bbox": [
+        18.15,
+        61.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C8",
+      "bbox": [
+        52.15,
+        45.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L3",
+      "bbox": [
+        30.45,
+        13.5,
+        1.6,
+        2.099999999999998,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C12",
+      "bbox": [
+        44.55,
+        14.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L4",
+      "bbox": [
+        39.45,
+        13.5,
+        1.6,
+        2.0999999999999943,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        31.95,
+        57.325,
+        1.6,
+        2.099999999999998,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        6.15,
+        32.55,
+        1.6,
+        1.6999999999999993,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L1",
+      "bbox": [
+        44.475,
+        57.475,
+        1.6,
+        3.049999999999997,
+        3.049999999999997,
+        1.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        38.15,
+        64.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R5",
+      "bbox": [
+        29.15,
+        52.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U4",
+      "bbox": [
+        21.15,
+        55.5,
+        1.6,
+        1.7000000000000028,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C5",
+      "bbox": [
+        46.15,
+        53.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J1",
+      "bbox": [
+        3.68,
+        49.68,
+        1.6,
+        5.18,
+        12.799999999999997,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R4",
+      "bbox": [
+        19.15,
+        49.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        45.95,
+        63.325,
+        1.6,
+        2.0999999999999943,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C9",
+      "bbox": [
+        17.55,
+        14.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C7",
+      "bbox": [
+        48.15,
+        24.55,
+        1.6,
+        1.7000000000000028,
+        0.8999999999999986,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C11",
+      "bbox": [
+        35.55,
+        14.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L2",
+      "bbox": [
+        21.45,
+        13.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C10",
+      "bbox": [
+        26.55,
+        14.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U1",
+      "bbox": [
+        12.175,
+        27.475,
+        1.6,
+        35.650000000000006,
+        19.049999999999997,
+        6
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R2",
+      "bbox": [
+        34.15,
+        64.5375,
+        1.6,
+        1.7000000000000028,
+        0.9250000000000114,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "U3",
+      "bbox": [
+        49.15,
+        49.5,
+        1.6,
+        1.7000000000000028,
+        3.0,
+        1.45
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "Q1",
+      "bbox": [
+        25.3,
+        49.5,
+        1.6,
+        1.3999999999999986,
+        3.0,
+        1.1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C6",
+      "bbox": [
+        22.15,
+        60.55,
+        1.6,
+        1.7000000000000028,
+        0.9000000000000057,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "J2",
+      "bbox": [
+        55.44,
+        8.87,
+        1.6,
+        15.980000000000004,
+        10.26,
+        8
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R6",
+      "bbox": [
+        16.15,
+        52.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        5.95,
+        37.325,
+        1.6,
+        2.1000000000000005,
+        1.3499999999999943,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R3",
+      "bbox": [
+        52.15,
+        41.5375,
+        1.6,
+        1.7000000000000028,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ],
+  "lpf40": [
+    {
+      "ref": "J1",
+      "bbox": [
+        2.68,
+        5.68,
+        1.6,
+        5.18,
+        7.720000000000001,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        12.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L1",
+      "bbox": [
+        16.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        21.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L2",
+      "bbox": [
+        25.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        30.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L3",
+      "bbox": [
+        34.45,
+        9.5,
+        1.6,
+        2.0999999999999943,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        39.55,
+        10.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        15.15,
+        18.5375,
+        1.6,
+        1.700000000000001,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ],
+  "lpf20": [
+    {
+      "ref": "J1",
+      "bbox": [
+        2.68,
+        5.68,
+        1.6,
+        5.18,
+        7.720000000000001,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        12.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L1",
+      "bbox": [
+        16.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        21.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L2",
+      "bbox": [
+        25.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        30.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L3",
+      "bbox": [
+        34.45,
+        9.5,
+        1.6,
+        2.0999999999999943,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        39.55,
+        10.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        15.15,
+        18.5375,
+        1.6,
+        1.700000000000001,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ],
+  "lpf15": [
+    {
+      "ref": "J1",
+      "bbox": [
+        2.68,
+        5.68,
+        1.6,
+        5.18,
+        7.720000000000001,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        12.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L1",
+      "bbox": [
+        16.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        21.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L2",
+      "bbox": [
+        25.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        30.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L3",
+      "bbox": [
+        34.45,
+        9.5,
+        1.6,
+        2.0999999999999943,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        39.55,
+        10.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        15.15,
+        18.5375,
+        1.6,
+        1.700000000000001,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ],
+  "lpf10": [
+    {
+      "ref": "J1",
+      "bbox": [
+        2.68,
+        5.68,
+        1.6,
+        5.18,
+        7.720000000000001,
+        8.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C1",
+      "bbox": [
+        12.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L1",
+      "bbox": [
+        16.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C2",
+      "bbox": [
+        21.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L2",
+      "bbox": [
+        25.45,
+        9.5,
+        1.6,
+        2.1000000000000014,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C3",
+      "bbox": [
+        30.55,
+        10.15,
+        1.6,
+        0.8999999999999986,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "L3",
+      "bbox": [
+        34.45,
+        9.5,
+        1.6,
+        2.0999999999999943,
+        1.0,
+        1.3
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "C4",
+      "bbox": [
+        39.55,
+        10.15,
+        1.6,
+        0.9000000000000057,
+        1.6999999999999993,
+        1
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    },
+    {
+      "ref": "R1",
+      "bbox": [
+        15.15,
+        18.5375,
+        1.6,
+        1.700000000000001,
+        0.9249999999999972,
+        0.5
+      ],
+      "kind": "KiCad footprint / simplified body envelope"
+    }
+  ]
+}

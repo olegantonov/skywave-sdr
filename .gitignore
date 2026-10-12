@@ -7,3 +7,8 @@ build/
 *.elf
 *.map
 *.cs8
+hardware/library/
+*.kicad_prl
+*-backups/
+
+.history/

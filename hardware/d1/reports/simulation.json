@@ -1,0 +1,281 @@
+{
+  "model_limits": [
+    "LC models omit PCB parasitics and inductor self-resonance.",
+    "Q=35 is an analysis assumption, not a guaranteed component specification.",
+    "Monte Carlo uses independent uniform +/-5% L/C tolerances.",
+    "These tests do not establish emissions compliance, sensitivity or output power."
+  ],
+  "ngspice_version": "** ngspice-42 : Circuit level simulation program",
+  "filters": {
+    "vhf": {
+      "passband_hz": [
+        144000000.0,
+        148000000.0
+      ],
+      "nominal_loss_db": 0.8266939120874366,
+      "monte_carlo_cases": 300,
+      "worst_loss_db": 1.128424526766583,
+      "minimum_second_harmonic_attenuation_db": 21.10193676353777,
+      "spice_vs_abcd_max_error_db": 1.418785089413177e-07,
+      "q_sensitivity_nominal_loss_db": {
+        "10": 2.2122015671889574,
+        "20": 1.2431013520022463,
+        "35": 0.8266939120874366,
+        "50": 0.6600611353675092
+      },
+      "engineering_targets_passed": true
+    },
+    "uhf": {
+      "passband_hz": [
+        430000000.0,
+        440000000.0
+      ],
+      "nominal_loss_db": 0.6127573676136658,
+      "monte_carlo_cases": 300,
+      "worst_loss_db": 0.7598185902106243,
+      "minimum_second_harmonic_attenuation_db": 23.6823046777647,
+      "spice_vs_abcd_max_error_db": 2.9052107208826783e-07,
+      "q_sensitivity_nominal_loss_db": {
+        "10": 2.08625210063168,
+        "20": 1.0559646879482523,
+        "35": 0.6127573676136658,
+        "50": 0.4353031298091828
+      },
+      "engineering_targets_passed": true
+    },
+    "lpf40": {
+      "passband_hz": [
+        7000000.0,
+        7300000.0
+      ],
+      "nominal_loss_db": 0.7497518509866484,
+      "monte_carlo_cases": 300,
+      "worst_loss_db": 1.0263870449428536,
+      "minimum_second_harmonic_attenuation_db": 26.50992973735608,
+      "spice_vs_abcd_max_error_db": 3.0051678656661807e-07,
+      "q_sensitivity_nominal_loss_db": {
+        "10": 2.445946037916751,
+        "20": 1.26134381088449,
+        "35": 0.7497518509866484,
+        "50": 0.5446031619920819
+      },
+      "engineering_targets_passed": true
+    },
+    "lpf20": {
+      "passband_hz": [
+        14000000.0,
+        14350000.0
+      ],
+      "nominal_loss_db": 1.015470070446872,
+      "monte_carlo_cases": 300,
+      "worst_loss_db": 1.3737331977512457,
+      "minimum_second_harmonic_attenuation_db": 25.208445965349377,
+      "spice_vs_abcd_max_error_db": 1.45793741523903e-07,
+      "q_sensitivity_nominal_loss_db": {
+        "10": 2.5861099759665427,
+        "20": 1.4887209229246827,
+        "35": 1.015470070446872,
+        "50": 0.8257878645436305
+      },
+      "engineering_targets_passed": true
+    },
+    "lpf15": {
+      "passband_hz": [
+        21000000.0,
+        21450000.0
+      ],
+      "nominal_loss_db": 0.9854699496442354,
+      "monte_carlo_cases": 300,
+      "worst_loss_db": 1.3729904538427775,
+      "minimum_second_harmonic_attenuation_db": 26.615660155464237,
+      "spice_vs_abcd_max_error_db": 1.0633741709398237e-07,
+      "q_sensitivity_nominal_loss_db": {
+        "10": 2.607611325379384,
+        "20": 1.4745814131393007,
+        "35": 0.9854699496442354,
+        "50": 0.7893474297485602
+      },
+      "engineering_targets_passed": true
+    },
+    "lpf10": {
+      "passband_hz": [
+        28000000.0,
+        29700000.0
+      ],
+      "nominal_loss_db": 1.0146043862733427,
+      "monte_carlo_cases": 300,
+      "worst_loss_db": 1.4216135454341796,
+      "minimum_second_harmonic_attenuation_db": 23.857841538552407,
+      "spice_vs_abcd_max_error_db": 2.2976547597863828e-07,
+      "q_sensitivity_nominal_loss_db": {
+        "10": 2.6251570457017905,
+        "20": 1.5003550329780702,
+        "35": 1.0146043862733427,
+        "50": 0.8197976711330612
+      },
+      "engineering_targets_passed": true
+    }
+  },
+  "power": {
+    "buck_nominal_v": 4.016,
+    "buck_corner_v": [
+      3.8930320792079214,
+      4.142184242424243
+    ],
+    "dra_recommended_v": [
+      3.3,
+      4.5
+    ],
+    "buck_current_limit_design_a": 1.0,
+    "dra_low_power_max_a": 0.55,
+    "main_ldo_dissipation_w_at_400ma": 0.6800000000000002,
+    "thermal_validation": "not measured; copper area, enclosure and ambient temperature remain open",
+    "input_5v_worst_case_a": 1.277
+  },
+  "ptt_truth_table": [
+    {
+      "ptt": 0,
+      "tx_arm": 0,
+      "select": 0,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 0,
+      "tx_arm": 0,
+      "select": 1,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 0,
+      "tx_arm": 0,
+      "select": 2,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 0,
+      "tx_arm": 0,
+      "select": 3,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 0,
+      "tx_arm": 1,
+      "select": 0,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 0,
+      "tx_arm": 1,
+      "select": 1,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 0,
+      "tx_arm": 1,
+      "select": 2,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 0,
+      "tx_arm": 1,
+      "select": 3,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 0,
+      "select": 0,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 0,
+      "select": 1,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 0,
+      "select": 2,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 0,
+      "select": 3,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 1,
+      "select": 0,
+      "hf": true,
+      "vhf": false,
+      "uhf": false
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 1,
+      "select": 1,
+      "hf": false,
+      "vhf": true,
+      "uhf": false
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 1,
+      "select": 2,
+      "hf": false,
+      "vhf": false,
+      "uhf": true
+    },
+    {
+      "ptt": 1,
+      "tx_arm": 1,
+      "select": 3,
+      "hf": false,
+      "vhf": false,
+      "uhf": false
+    }
+  ],
+  "quadrature": {
+    "select_sequence": [
+      1,
+      3,
+      2,
+      0,
+      1,
+      3,
+      2,
+      0
+    ],
+    "lo_max_hz": 118800000.0,
+    "device_fmax_hz_at_3v_85c": 150000000.0,
+    "note": "Clock jitter and setup/hold margins require physical validation."
+  },
+  "all_engineering_targets_passed": true
+}

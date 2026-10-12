@@ -1,0 +1,258 @@
+board,ref,value,mpn,footprint,source,status
+control,U1,ESP32-S3-WROOM-1-N8,ESP32-S3-WROOM-1-N8,RF_Module:ESP32-S3-WROOM-1,esp32,prototype; procurement and independent review pending
+control,R1,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C1,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R2,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,SW1,B3F-1000,B3F-1000,Button_Switch_THT:SW_PUSH_6mm,buttons,prototype; procurement and independent review pending
+control,SW2,B3F-1000,B3F-1000,Button_Switch_THT:SW_PUSH_6mm,buttons,prototype; procurement and independent review pending
+control,SW3,B3F-1000,B3F-1000,Button_Switch_THT:SW_PUSH_6mm,buttons,prototype; procurement and independent review pending
+control,SW4,B3F-1000,B3F-1000,Button_Switch_THT:SW_PUSH_6mm,buttons,prototype; procurement and independent review pending
+control,SW5,B3F-1000,B3F-1000,Button_Switch_THT:SW_PUSH_6mm,buttons,prototype; procurement and independent review pending
+control,R3,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R4,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R5,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R6,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,J1,PTT_PANEL,Samtec TSW-002-07-S-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,J2,OLED_I2C,Samtec TSW-004-07-S-S,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,R7,4.7k,CRCW0603 series; value=4.7k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R8,4.7k,CRCW0603 series; value=4.7k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R9,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C2,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,J3,POWER_5V,Samtec TSW-002-07-S-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,U2,LM1117IMP-3.3,LM1117IMP-3.3,Package_TO_SOT_SMD:SOT-223,ldo,prototype; procurement and independent review pending
+control,C3,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C4,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C5,22u tantalum,T491B226K016AT,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,tantalum,prototype; procurement and independent review pending
+control,R10,0.47,CRCW0603 series; value=0.47; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C6,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C7,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,J4,USB4105-GF-A,USB4105-GF-A,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,usb,prototype; procurement and independent review pending
+control,R11,5.1k,CRCW0603 series; value=5.1k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R12,5.1k,CRCW0603 series; value=5.1k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R13,22,CRCW0603 series; value=22; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R14,22,CRCW0603 series; value=22; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C8,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,U3,USBLC6-2SC6,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,esd,prototype; procurement and independent review pending
+control,U4,SN74LVC1G04DBVR,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,inverter,prototype; procurement and independent review pending
+control,U5,SN74LVC1G00DBVR,SN74LVC1G00DBVR,Package_TO_SOT_SMD:SOT-23-5,nand,prototype; procurement and independent review pending
+control,R15,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,U6,SN74HC139D,SN74HC139D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,decoder,prototype; procurement and independent review pending
+control,R16,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R17,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,J5,HF_INTERFACE,Samtec TSW-010-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,J6,VHF_INTERFACE,Samtec TSW-005-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,R18,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,J7,UHF_INTERFACE,Samtec TSW-005-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,R19,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,U7,CD74HCT4052M,CD74HCT4052M,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,audio_mux,prototype; procurement and independent review pending
+control,R20,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,R21,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C9,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C10,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R22,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C11,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R23,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C12,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R24,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C13,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R25,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C14,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R26,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C15,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R27,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,J8,MIC_ELECTRET,Samtec TSW-002-07-S-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,R28,2.2k,CRCW0603 series; value=2.2k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C16,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R29,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C17,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,RV1,10k volume,3296W-1-103LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,volume,prototype; procurement and independent review pending
+control,U8,LM386N-1,LM386N-1,Package_DIP:DIP-8_W7.62mm,audio_amp,prototype; procurement and independent review pending
+control,C18,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C19,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C20,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,R30,10,CRCW0603 series; value=10; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+control,C21,220u,EEUFR1A221,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,electrolytic,prototype; procurement and independent review pending
+control,J9,SPEAKER_8_OHM,Samtec TSW-002-07-S-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+control,C22,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C23,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C24,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+control,C25,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,J1,CONTROL_INTERFACE,Samtec TSW-010-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+hf,U1,TLV75518PDBVR,TLV75518PDBVR,Package_TO_SOT_SMD:SOT-23-5,ldo18,prototype; procurement and independent review pending
+hf,C1,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C2,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,U2,TLV320AIC3204IRHBR,TLV320AIC3204IRHBR,Package_DFN_QFN:Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm,codec,prototype; procurement and independent review pending
+hf,C3,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C4,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C5,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C6,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C7,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C8,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C9,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R1,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,U3,SI5351A-B-GT,SI5351A-B-GT,Package_SO:MSOP-10_3x3mm_P0.5mm,si5351,prototype; procurement and independent review pending
+hf,Y1,25MHz 10pF,Abracon ABM8-25.000MHZ-10-1-U-T,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,crystal,prototype; procurement and independent review pending
+hf,C10,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R2,33,CRCW0603 series; value=33; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,U4,74LVC74APW,74LVC74APW,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,flipflop,prototype; procurement and independent review pending
+hf,R3,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C11,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,U5,SN74LVC1G04DBVR,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,inverter,prototype; procurement and independent review pending
+hf,R4,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R5,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R6,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C12,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,U6,TLV9064IDR,TLV9064IDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,opamp,prototype; procurement and independent review pending
+hf,R7,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R8,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C13,100p,KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R9,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R10,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C14,100p,KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R11,1k,CRCW0603 series; value=1k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C15,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C16,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R12,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R13,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C17,100p,KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R14,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R15,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C18,100p,KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R16,1k,CRCW0603 series; value=1k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C19,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C20,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C21,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,U7,TLV9064IDR,TLV9064IDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,opamp,prototype; procurement and independent review pending
+hf,C22,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R17,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R18,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R19,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R20,100,CRCW0603 series; value=100; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C23,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R21,100,CRCW0603 series; value=100; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C24,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C25,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R22,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R23,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R24,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,R25,100,CRCW0603 series; value=100; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C26,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R26,100,CRCW0603 series; value=100; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C27,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C28,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,U8,SN74CBT3253DR,SN74CBT3253DR,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,mixer,prototype; procurement and independent review pending
+hf,C29,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,U9,SN74CBT3253DR,SN74CBT3253DR,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,mixer,prototype; procurement and independent review pending
+hf,C30,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C31,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C32,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C33,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C34,10n,KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C35,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R27,49.9,CRCW0603 series; value=49.9; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,C36,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,R28,49.9,CRCW0603 series; value=49.9; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,K1,G6K-2F-Y-DC5,G6K-2F-Y-DC5,Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y,relay,prototype; procurement and independent review pending
+hf,Q1,2N7002,2N7002,Package_TO_SOT_SMD:SOT-23,mosfet,prototype; procurement and independent review pending
+hf,D1,1N4148W,1N4148W,Diode_SMD:D_SOD-123,diode,prototype; procurement and independent review pending
+hf,R29,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+hf,J2,FILTER_CARTRIDGE,Samtec TSW-003-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+hf,J3,SMA 132289,Amphenol 132289,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,sma,prototype; procurement and independent review pending
+hf,C37,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+hf,C38,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,J1,CONTROL_INTERFACE,Samtec TSW-005-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+vhf,U1,DRA818V,DRA818V,SkyWave:DRA818,vhf,prototype; procurement and independent review pending
+vhf,U2,TPS62160DGKR,TPS62160DGKR,Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm,buck,prototype; procurement and independent review pending
+vhf,L1,2.2u,VLS3015ET-2R2M,SkyWave:VLS3015ET,power_inductor,prototype; procurement and independent review pending
+vhf,C1,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,C2,22u,KEMET 0805 X7R 25V; 22u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,R1,402k,CRCW0603 series; value=402k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+vhf,R2,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+vhf,C3,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,C4,22u,KEMET 0805 X7R 25V; 22u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,R3,1k,CRCW0603 series; value=1k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+vhf,U3,SN74LVC1G17DBVR,SN74LVC1G17DBVR,Package_TO_SOT_SMD:SOT-23-5,uart_buffer,prototype; procurement and independent review pending
+vhf,U4,SN74LVC1G04DBVR,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,inverter,prototype; procurement and independent review pending
+vhf,Q1,2N7002,2N7002,Package_TO_SOT_SMD:SOT-23,mosfet,prototype; procurement and independent review pending
+vhf,R4,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+vhf,R5,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+vhf,R6,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+vhf,R7,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+vhf,C5,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,C6,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,C7,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,C8,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,C9,7.5p,KEMET 0603 C0G 25V; 7.5p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,L2,47n,0805CS-470XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+vhf,C10,30p,KEMET 0603 C0G 25V; 30p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,L3,82n,0805CS-820XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+vhf,C11,30p,KEMET 0603 C0G 25V; 30p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,L4,47n,0805CS-470XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+vhf,C12,7.5p,KEMET 0603 C0G 25V; 7.5p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+vhf,J2,SMA 132289,Amphenol 132289,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,sma,prototype; procurement and independent review pending
+uhf,J1,CONTROL_INTERFACE,Samtec TSW-005-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+uhf,U1,DRA818U,DRA818U,SkyWave:DRA818,uhf,prototype; procurement and independent review pending
+uhf,U2,TPS62160DGKR,TPS62160DGKR,Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm,buck,prototype; procurement and independent review pending
+uhf,L1,2.2u,VLS3015ET-2R2M,SkyWave:VLS3015ET,power_inductor,prototype; procurement and independent review pending
+uhf,C1,10u,KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,C2,22u,KEMET 0805 X7R 25V; 22u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,R1,402k,CRCW0603 series; value=402k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+uhf,R2,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+uhf,C3,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,C4,22u,KEMET 0805 X7R 25V; 22u; 5% RF/10% decoupling,Capacitor_SMD:C_0805_2012Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,R3,1k,CRCW0603 series; value=1k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+uhf,U3,SN74LVC1G17DBVR,SN74LVC1G17DBVR,Package_TO_SOT_SMD:SOT-23-5,uart_buffer,prototype; procurement and independent review pending
+uhf,U4,SN74LVC1G04DBVR,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,inverter,prototype; procurement and independent review pending
+uhf,Q1,2N7002,2N7002,Package_TO_SOT_SMD:SOT-23,mosfet,prototype; procurement and independent review pending
+uhf,R4,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+uhf,R5,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+uhf,R6,100k,CRCW0603 series; value=100k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+uhf,R7,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+uhf,C5,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,C6,100n,KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,C7,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,C8,1u,KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,C9,2.4p,KEMET 0603 C0G 25V; 2.4p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,L2,18n,0805CS-180XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+uhf,C10,10p,KEMET 0603 C0G 25V; 10p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,L3,27n,0805CS-270XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+uhf,C11,10p,KEMET 0603 C0G 25V; 10p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,L4,18n,0805CS-180XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+uhf,C12,2.4p,KEMET 0603 C0G 25V; 2.4p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+uhf,J2,SMA 132289,Amphenol 132289,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,sma,prototype; procurement and independent review pending
+lpf40,J1,HF_FILTER,Samtec TSW-003-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+lpf40,C1,150p,KEMET 0603 C0G 25V; 150p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf40,L1,1200n,0805CS-122XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf40,C2,620p,KEMET 0603 C0G 25V; 620p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf40,L2,1800n,0805CS-182XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf40,C3,620p,KEMET 0603 C0G 25V; 620p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf40,L3,1200n,0805CS-122XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf40,C4,150p,KEMET 0603 C0G 25V; 150p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf40,R1,1k,CRCW0603 series; value=1k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+lpf20,J1,HF_FILTER,Samtec TSW-003-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+lpf20,C1,75p,KEMET 0603 C0G 25V; 75p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf20,L1,560n,0805CS-561XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf20,C2,300p,KEMET 0603 C0G 25V; 300p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf20,L2,1000n,0805CS-102XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf20,C3,300p,KEMET 0603 C0G 25V; 300p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf20,L3,560n,0805CS-561XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf20,C4,75p,KEMET 0603 C0G 25V; 75p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf20,R1,2.2k,CRCW0603 series; value=2.2k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+lpf15,J1,HF_FILTER,Samtec TSW-003-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+lpf15,C1,51p,KEMET 0603 C0G 25V; 51p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf15,L1,390n,0805CS-391XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf15,C2,200p,KEMET 0603 C0G 25V; 200p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf15,L2,680n,0805CS-681XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf15,C3,200p,KEMET 0603 C0G 25V; 200p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf15,L3,390n,0805CS-391XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf15,C4,51p,KEMET 0603 C0G 25V; 51p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf15,R1,4.7k,CRCW0603 series; value=4.7k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending
+lpf10,J1,HF_FILTER,Samtec TSW-003-07-D-S,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,samtec_headers,prototype; procurement and independent review pending
+lpf10,C1,36p,KEMET 0603 C0G 25V; 36p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf10,L1,270n,0805CS-271XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf10,C2,150p,KEMET 0603 C0G 25V; 150p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf10,L2,470n,0805CS-471XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf10,C3,150p,KEMET 0603 C0G 25V; 150p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf10,L3,270n,0805CS-271XJRC,Inductor_SMD:L_0805_2012Metric,rf_inductor,prototype; procurement and independent review pending
+lpf10,C4,36p,KEMET 0603 C0G 25V; 36p; 5% RF/10% decoupling,Capacitor_SMD:C_0603_1608Metric,kemet_capacitors,prototype; procurement and independent review pending
+lpf10,R1,10k,CRCW0603 series; value=10k; 1%,Resistor_SMD:R_0603_1608Metric,vishay_resistors,prototype; procurement and independent review pending

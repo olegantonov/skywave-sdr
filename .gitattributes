@@ -1,0 +1,8 @@
+*.step binary linguist-generated=true
+*.stl binary linguist-generated=true
+hardware/d1/** -whitespace
+hardware/d1/ecad/** linguist-generated=true
+hardware/d1/fabrication_prototype/** linguist-generated=true
+hardware/d1/plots/** linguist-generated=true
+hardware/d1/reports/** linguist-generated=true
+hardware/d1/renders/** linguist-generated=true

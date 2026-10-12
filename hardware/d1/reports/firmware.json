@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12",
+  "native_tests": "passed with UndefinedBehaviorSanitizer",
+  "hardware_contract_tests": {
+    "count": 4,
+    "passed": true
+  },
+  "builds": {
+    "esp32s3_oled": {
+      "passed": true,
+      "ram_bytes": 19168,
+      "flash_bytes": 285409
+    },
+    "esp32s3_ssd1306": {
+      "passed": true,
+      "ram_bytes": 19168,
+      "flash_bytes": 285409
+    }
+  },
+  "rf_backend": "absent; outputs held disabled",
+  "source_sha256": {
+    "firmware/src/main.cpp": "3cc4118520ae8106f03d73101cf29426ab5f2b554017dbb04a0418346432d7c6",
+    "firmware/include/pins.h": "8b10028bef6d32c4e9d6034f1e2208c7c4a68821c76d20a893adcaba8f1591bd",
+    "firmware/include/radio.h": "b462460f232926e3f88671a1b221f1649931edea04db5dc26f528c47d77f0f3b"
+  }
+}
