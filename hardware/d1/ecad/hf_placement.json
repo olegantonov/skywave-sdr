@@ -1,0 +1,3192 @@
+[
+  {
+    "ref": "C36",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "MIX_TX",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_AC",
+        "kind": "passive"
+      }
+    },
+    "x": 94,
+    "y": 66,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      93.15,
+      65.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C5",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+1V8",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 29,
+    "y": 33,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      28.15,
+      32.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C27",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_QN_F",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 67,
+    "y": 91,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      66.15,
+      90.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C14",
+    "value": "100p",
+    "mpn": "KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_I_NEG",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_I",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 44,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      43.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C18",
+    "value": "100p",
+    "mpn": "KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_Q_NEG",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_Q",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 62,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      61.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "J2",
+    "value": "FILTER_CARTRIDGE",
+    "mpn": "Samtec TSW-003-07-D-S",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RF_COMMON",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "ANT_HF",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "5",
+        "net": "FILTER_ID",
+        "kind": "passive"
+      },
+      "6": {
+        "name": "6",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 102,
+    "y": 87,
+    "rotation": 0,
+    "height_mm": 8.5,
+    "source": "samtec_headers",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      100.68,
+      85.68,
+      5.179999999999993,
+      7.719999999999999
+    ]
+  },
+  {
+    "ref": "C24",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_IN_F",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 67,
+    "y": 69,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      66.15,
+      68.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R29",
+    "value": "100k",
+    "mpn": "CRCW0603 series; value=100k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HF_TX",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 114,
+    "y": 68,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      113.15,
+      67.5375,
+      1.6999999999999886,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "U2",
+    "value": "TLV320AIC3204IRHBR",
+    "mpn": "TLV320AIC3204IRHBR",
+    "footprint": "Package_DFN_QFN:Texas_RHB0032E_VQFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm",
+    "pins": {
+      "1": {
+        "name": "MCLK",
+        "net": "I2S_MCLK",
+        "kind": "input"
+      },
+      "2": {
+        "name": "BCLK",
+        "net": "I2S_BCLK",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "WCLK",
+        "net": "I2S_LRCK",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "DIN",
+        "net": "I2S_TX",
+        "kind": "input"
+      },
+      "5": {
+        "name": "DOUT",
+        "net": "I2S_RX",
+        "kind": "output"
+      },
+      "6": {
+        "name": "IOVDD",
+        "net": "+3V3",
+        "kind": "power_in"
+      },
+      "7": {
+        "name": "IOVSS",
+        "net": "GND",
+        "kind": "power_in"
+      },
+      "8": {
+        "name": "MFP3",
+        "net": "GND",
+        "kind": "input"
+      },
+      "9": {
+        "name": "SCL",
+        "net": "I2C_SCL",
+        "kind": "input"
+      },
+      "10": {
+        "name": "SDA",
+        "net": "I2C_SDA",
+        "kind": "passive"
+      },
+      "11": {
+        "name": "MFP4",
+        "net": null,
+        "kind": "passive"
+      },
+      "12": {
+        "name": "SPI_SEL",
+        "net": "GND",
+        "kind": "input"
+      },
+      "13": {
+        "name": "IN1L",
+        "net": "ADC_I",
+        "kind": "passive"
+      },
+      "14": {
+        "name": "IN1R",
+        "net": "ADC_Q",
+        "kind": "passive"
+      },
+      "15": {
+        "name": "IN2L",
+        "net": "MIC_IN",
+        "kind": "passive"
+      },
+      "16": {
+        "name": "IN2R",
+        "net": null,
+        "kind": "passive"
+      },
+      "17": {
+        "name": "AVSS",
+        "net": "GND",
+        "kind": "power_in"
+      },
+      "18": {
+        "name": "REF",
+        "net": "CODEC_REF",
+        "kind": "output"
+      },
+      "19": {
+        "name": "MICBIAS",
+        "net": null,
+        "kind": "passive"
+      },
+      "20": {
+        "name": "IN3L",
+        "net": null,
+        "kind": "passive"
+      },
+      "21": {
+        "name": "IN3R",
+        "net": null,
+        "kind": "passive"
+      },
+      "22": {
+        "name": "LOL",
+        "net": "DAC_I",
+        "kind": "output"
+      },
+      "23": {
+        "name": "LOR",
+        "net": "DAC_Q",
+        "kind": "output"
+      },
+      "24": {
+        "name": "AVDD",
+        "net": "+1V8",
+        "kind": "power_in"
+      },
+      "25": {
+        "name": "HPL",
+        "net": "AUDIO_RAW",
+        "kind": "output"
+      },
+      "26": {
+        "name": "LDOIN",
+        "net": "+3V3",
+        "kind": "power_in"
+      },
+      "27": {
+        "name": "HPR",
+        "net": null,
+        "kind": "output"
+      },
+      "28": {
+        "name": "DVSS",
+        "net": "GND",
+        "kind": "power_in"
+      },
+      "29": {
+        "name": "DVDD",
+        "net": "+1V8",
+        "kind": "power_in"
+      },
+      "30": {
+        "name": "LDO_SEL",
+        "net": "GND",
+        "kind": "input"
+      },
+      "31": {
+        "name": "RESET",
+        "net": "CODEC_RESET_N",
+        "kind": "input"
+      },
+      "32": {
+        "name": "GPIO",
+        "net": null,
+        "kind": "passive"
+      },
+      "33": {
+        "name": "EP",
+        "net": "GND",
+        "kind": "power_in"
+      }
+    },
+    "x": 28,
+    "y": 27,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "codec",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      25.45,
+      24.45,
+      5.100000000000001,
+      5.100000000000001
+    ]
+  },
+  {
+    "ref": "C32",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_QP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 74,
+    "y": 34,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      73.15,
+      33.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C16",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "LP_I",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "ADC_I",
+        "kind": "passive"
+      }
+    },
+    "x": 27,
+    "y": 41,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      26.15,
+      40.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "U7",
+    "value": "TLV9064IDR",
+    "mpn": "TLV9064IDR",
+    "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+    "pins": {
+      "1": {
+        "name": "OUT1",
+        "net": "TX_IP",
+        "kind": "output"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_IP",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "TX_I_BIAS",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "5",
+        "net": "VMID",
+        "kind": "passive"
+      },
+      "6": {
+        "name": "6",
+        "net": "TX_I_INV",
+        "kind": "passive"
+      },
+      "7": {
+        "name": "OUT2",
+        "net": "TX_IN",
+        "kind": "output"
+      },
+      "8": {
+        "name": "OUT3",
+        "net": "TX_QP",
+        "kind": "output"
+      },
+      "9": {
+        "name": "9",
+        "net": "TX_QP",
+        "kind": "passive"
+      },
+      "10": {
+        "name": "10",
+        "net": "TX_Q_BIAS",
+        "kind": "passive"
+      },
+      "11": {
+        "name": "11",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "12": {
+        "name": "12",
+        "net": "VMID",
+        "kind": "passive"
+      },
+      "13": {
+        "name": "13",
+        "net": "TX_Q_INV",
+        "kind": "passive"
+      },
+      "14": {
+        "name": "OUT4",
+        "net": "TX_QN",
+        "kind": "output"
+      }
+    },
+    "x": 45,
+    "y": 76,
+    "rotation": 0,
+    "height_mm": 1.75,
+    "source": "opamp",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      43.0,
+      71.625,
+      4.0,
+      8.75
+    ]
+  },
+  {
+    "ref": "R1",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "CODEC_RESET_N",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 22,
+    "y": 20,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      21.15,
+      19.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "R9",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_IN",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_I_NEG",
+        "kind": "passive"
+      }
+    },
+    "x": 57,
+    "y": 41,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      56.15,
+      40.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "R23",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_QP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_Q_INV",
+        "kind": "passive"
+      }
+    },
+    "x": 54,
+    "y": 87,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      53.15,
+      86.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "C3",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 23,
+    "y": 33,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      22.15,
+      32.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "D1",
+    "value": "1N4148W",
+    "mpn": "1N4148W",
+    "footprint": "Diode_SMD:D_SOD-123",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "COIL_LOW",
+        "kind": "passive"
+      }
+    },
+    "x": 104,
+    "y": 66,
+    "rotation": 0,
+    "height_mm": 1.2,
+    "source": "diode",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      102.55,
+      65.05,
+      2.9000000000000057,
+      1.9000000000000057
+    ]
+  },
+  {
+    "ref": "C10",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 73,
+    "y": 15,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      72.15,
+      14.55,
+      1.6999999999999886,
+      0.8999999999999986
+    ]
+  },
+  {
+    "ref": "C34",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_IN",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 74,
+    "y": 39,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      73.15,
+      38.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "U1",
+    "value": "TLV75518PDBVR",
+    "mpn": "TLV75518PDBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": null,
+        "kind": "passive"
+      },
+      "5": {
+        "name": "OUT",
+        "net": "+1V8",
+        "kind": "power_out"
+      }
+    },
+    "x": 20,
+    "y": 37,
+    "rotation": 0,
+    "height_mm": 1.45,
+    "source": "ldo18",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      19.15,
+      35.5,
+      1.7000000000000028,
+      3.0
+    ]
+  },
+  {
+    "ref": "R25",
+    "value": "100",
+    "mpn": "CRCW0603 series; value=100; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_QP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_QP_F",
+        "kind": "passive"
+      }
+    },
+    "x": 61,
+    "y": 87,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      60.15,
+      86.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "U3",
+    "value": "SI5351A-B-GT",
+    "mpn": "SI5351A-B-GT",
+    "footprint": "Package_SO:MSOP-10_3x3mm_P0.5mm",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "XTAL_A",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "XTAL_B",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "SCL",
+        "net": "I2C_SCL",
+        "kind": "input"
+      },
+      "5": {
+        "name": "SDA",
+        "net": "I2C_SDA",
+        "kind": "bidirectional"
+      },
+      "6": {
+        "name": "6",
+        "net": null,
+        "kind": "passive"
+      },
+      "7": {
+        "name": "7",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "8": {
+        "name": "8",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "9": {
+        "name": "9",
+        "net": null,
+        "kind": "passive"
+      },
+      "10": {
+        "name": "CLK0",
+        "net": "LO4_RAW",
+        "kind": "output"
+      }
+    },
+    "x": 63,
+    "y": 18,
+    "rotation": 0,
+    "height_mm": 1.1,
+    "source": "si5351",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      61.425,
+      16.425,
+      3.1500000000000057,
+      3.1499999999999986
+    ]
+  },
+  {
+    "ref": "R16",
+    "value": "1k",
+    "mpn": "CRCW0603 series; value=1k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_Q",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "LP_Q",
+        "kind": "passive"
+      }
+    },
+    "x": 36,
+    "y": 59,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      35.15,
+      58.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C2",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+1V8",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 25,
+    "y": 37,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      24.15,
+      36.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "U8",
+    "value": "SN74CBT3253DR",
+    "mpn": "SN74CBT3253DR",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HF_TX",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "LO_Q",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "DET_IN",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "DET_QN",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "5",
+        "net": "DET_QP",
+        "kind": "passive"
+      },
+      "6": {
+        "name": "6",
+        "net": "DET_IP",
+        "kind": "passive"
+      },
+      "7": {
+        "name": "7",
+        "net": "MIX_RX",
+        "kind": "passive"
+      },
+      "8": {
+        "name": "8",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "9": {
+        "name": "9",
+        "net": "MIX_RX",
+        "kind": "passive"
+      },
+      "10": {
+        "name": "10",
+        "net": "DET_IP",
+        "kind": "passive"
+      },
+      "11": {
+        "name": "11",
+        "net": "DET_QP",
+        "kind": "passive"
+      },
+      "12": {
+        "name": "12",
+        "net": "DET_QN",
+        "kind": "passive"
+      },
+      "13": {
+        "name": "13",
+        "net": "DET_IN",
+        "kind": "passive"
+      },
+      "14": {
+        "name": "14",
+        "net": "LO_I",
+        "kind": "passive"
+      },
+      "15": {
+        "name": "15",
+        "net": "HF_TX",
+        "kind": "passive"
+      },
+      "16": {
+        "name": "16",
+        "net": "+5V",
+        "kind": "passive"
+      }
+    },
+    "x": 82,
+    "y": 43,
+    "rotation": 0,
+    "height_mm": 1.75,
+    "source": "mixer",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      80.0,
+      38.0,
+      4.0,
+      10.0
+    ]
+  },
+  {
+    "ref": "U9",
+    "value": "SN74CBT3253DR",
+    "mpn": "SN74CBT3253DR",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HF_TX_N",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "LO_Q",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "TX_IN_F",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "TX_QN_F",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "5",
+        "net": "TX_QP_F",
+        "kind": "passive"
+      },
+      "6": {
+        "name": "6",
+        "net": "TX_IP_F",
+        "kind": "passive"
+      },
+      "7": {
+        "name": "7",
+        "net": "MIX_TX",
+        "kind": "passive"
+      },
+      "8": {
+        "name": "8",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "9": {
+        "name": "9",
+        "net": "MIX_TX",
+        "kind": "passive"
+      },
+      "10": {
+        "name": "10",
+        "net": "TX_IP_F",
+        "kind": "passive"
+      },
+      "11": {
+        "name": "11",
+        "net": "TX_QP_F",
+        "kind": "passive"
+      },
+      "12": {
+        "name": "12",
+        "net": "TX_QN_F",
+        "kind": "passive"
+      },
+      "13": {
+        "name": "13",
+        "net": "TX_IN_F",
+        "kind": "passive"
+      },
+      "14": {
+        "name": "14",
+        "net": "LO_I",
+        "kind": "passive"
+      },
+      "15": {
+        "name": "15",
+        "net": "HF_TX_N",
+        "kind": "passive"
+      },
+      "16": {
+        "name": "16",
+        "net": "+5V",
+        "kind": "passive"
+      }
+    },
+    "x": 82,
+    "y": 70,
+    "rotation": 0,
+    "height_mm": 1.75,
+    "source": "mixer",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      80.0,
+      65.0,
+      4.0,
+      10.0
+    ]
+  },
+  {
+    "ref": "R15",
+    "value": "100k",
+    "mpn": "CRCW0603 series; value=100k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_Q_NEG",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_Q",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 59,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      58.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C30",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 89,
+    "y": 70,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      88.15,
+      69.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C17",
+    "value": "100p",
+    "mpn": "KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_Q_POS",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 56,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      55.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C37",
+    "value": "10u",
+    "mpn": "KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 17,
+    "y": 10,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      15.95,
+      9.325,
+      2.1000000000000014,
+      1.3500000000000014
+    ]
+  },
+  {
+    "ref": "C4",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+1V8",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 26,
+    "y": 33,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      25.15,
+      32.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C23",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_IP_F",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 61,
+    "y": 69,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      60.15,
+      68.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C21",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 40,
+    "y": 35,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      39.15,
+      34.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R2",
+    "value": "33",
+    "mpn": "CRCW0603 series; value=33; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "LO4_RAW",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "LO4",
+        "kind": "passive"
+      }
+    },
+    "x": 70,
+    "y": 20,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      69.15,
+      19.5375,
+      1.6999999999999886,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C9",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HF_MIC",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "MIC_IN",
+        "kind": "passive"
+      }
+    },
+    "x": 35,
+    "y": 23,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      34.15,
+      22.55,
+      1.7000000000000028,
+      0.8999999999999986
+    ]
+  },
+  {
+    "ref": "R19",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_I_INV",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_IN",
+        "kind": "passive"
+      }
+    },
+    "x": 54,
+    "y": 69,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      53.15,
+      68.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "J3",
+    "value": "SMA 132289",
+    "mpn": "Amphenol 132289",
+    "footprint": "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "ANT_HF",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 117.4,
+    "y": 55,
+    "rotation": 0,
+    "height_mm": 8,
+    "source": "sma",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      115.44,
+      49.87,
+      15.97999999999999,
+      10.260000000000005
+    ]
+  },
+  {
+    "ref": "R5",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID_RAW",
+        "kind": "passive"
+      }
+    },
+    "x": 45,
+    "y": 24,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      44.15,
+      23.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C6",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 32,
+    "y": 33,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      31.15,
+      32.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R17",
+    "value": "100k",
+    "mpn": "CRCW0603 series; value=100k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_I_BIAS",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 34,
+    "y": 65,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      33.15,
+      64.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "C15",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "LP_I",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 31,
+    "y": 41,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      30.15,
+      40.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R28",
+    "value": "49.9",
+    "mpn": "CRCW0603 series; value=49.9; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_AC",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RF_TX",
+        "kind": "passive"
+      }
+    },
+    "x": 99,
+    "y": 66,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      98.15,
+      65.5375,
+      1.6999999999999886,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "C1",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 16,
+    "y": 37,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      15.15,
+      36.55,
+      1.700000000000001,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C35",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RF_RX",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "MIX_RX",
+        "kind": "passive"
+      }
+    },
+    "x": 94,
+    "y": 46,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      93.15,
+      45.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "U4",
+    "value": "74LVC74APW",
+    "mpn": "74LVC74APW",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "LO_RESET_N",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "LO_Q_N",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "LO4",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "1Q",
+        "net": "LO_I",
+        "kind": "output"
+      },
+      "6": {
+        "name": "6",
+        "net": null,
+        "kind": "passive"
+      },
+      "7": {
+        "name": "7",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "8": {
+        "name": "2Q_N",
+        "net": "LO_Q_N",
+        "kind": "output"
+      },
+      "9": {
+        "name": "2Q",
+        "net": "LO_Q",
+        "kind": "output"
+      },
+      "10": {
+        "name": "10",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "11": {
+        "name": "11",
+        "net": "LO4",
+        "kind": "passive"
+      },
+      "12": {
+        "name": "12",
+        "net": "LO_I",
+        "kind": "passive"
+      },
+      "13": {
+        "name": "13",
+        "net": "LO_RESET_N",
+        "kind": "passive"
+      },
+      "14": {
+        "name": "14",
+        "net": "+3V3",
+        "kind": "passive"
+      }
+    },
+    "x": 81,
+    "y": 18,
+    "rotation": 0,
+    "height_mm": 1.1,
+    "source": "flipflop",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      78.75,
+      15.45,
+      4.5,
+      5.100000000000001
+    ]
+  },
+  {
+    "ref": "C11",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 88,
+    "y": 24,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      87.15,
+      23.55,
+      1.6999999999999886,
+      0.8999999999999986
+    ]
+  },
+  {
+    "ref": "R12",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_QP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_Q_POS",
+        "kind": "passive"
+      }
+    },
+    "x": 57,
+    "y": 53,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      56.15,
+      52.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "Y1",
+    "value": "25MHz 10pF",
+    "mpn": "Abracon ABM8-25.000MHZ-10-1-U-T",
+    "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "XTAL_A",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "XTAL_B",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 60,
+    "y": 11,
+    "rotation": 0,
+    "height_mm": 0.8,
+    "source": "crystal",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      58.35,
+      9.7,
+      3.299999999999997,
+      2.6000000000000014
+    ]
+  },
+  {
+    "ref": "C20",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "LP_Q",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "ADC_Q",
+        "kind": "passive"
+      }
+    },
+    "x": 27,
+    "y": 59,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      26.15,
+      58.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "U5",
+    "value": "SN74LVC1G04DBVR",
+    "mpn": "SN74LVC1G04DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": null,
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "HF_TX_N",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "Y",
+        "net": "HF_TX",
+        "kind": "output"
+      },
+      "5": {
+        "name": "5",
+        "net": "+3V3",
+        "kind": "passive"
+      }
+    },
+    "x": 103,
+    "y": 75,
+    "rotation": 0,
+    "height_mm": 1.45,
+    "source": "inverter",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      102.15,
+      73.5,
+      1.6999999999999886,
+      3.0
+    ]
+  },
+  {
+    "ref": "R20",
+    "value": "100",
+    "mpn": "CRCW0603 series; value=100; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_IP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_IP_F",
+        "kind": "passive"
+      }
+    },
+    "x": 61,
+    "y": 65,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      60.15,
+      64.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "R13",
+    "value": "100k",
+    "mpn": "CRCW0603 series; value=100k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_Q_POS",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 53,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      52.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "R18",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_IP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_I_INV",
+        "kind": "passive"
+      }
+    },
+    "x": 54,
+    "y": 65,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      53.15,
+      64.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "R14",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_QN",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_Q_NEG",
+        "kind": "passive"
+      }
+    },
+    "x": 57,
+    "y": 59,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      56.15,
+      58.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C33",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_QN",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 68,
+    "y": 39,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      67.15,
+      38.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "U6",
+    "value": "TLV9064IDR",
+    "mpn": "TLV9064IDR",
+    "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+    "pins": {
+      "1": {
+        "name": "OUT1",
+        "net": "RX_I",
+        "kind": "output"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_I_NEG",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "RX_I_POS",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "5",
+        "net": "RX_Q_POS",
+        "kind": "passive"
+      },
+      "6": {
+        "name": "6",
+        "net": "RX_Q_NEG",
+        "kind": "passive"
+      },
+      "7": {
+        "name": "OUT2",
+        "net": "RX_Q",
+        "kind": "output"
+      },
+      "8": {
+        "name": "OUT3",
+        "net": "VMID",
+        "kind": "output"
+      },
+      "9": {
+        "name": "9",
+        "net": "VMID",
+        "kind": "passive"
+      },
+      "10": {
+        "name": "10",
+        "net": "VMID_RAW",
+        "kind": "passive"
+      },
+      "11": {
+        "name": "11",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "12": {
+        "name": "12",
+        "net": "VMID",
+        "kind": "passive"
+      },
+      "13": {
+        "name": "13",
+        "net": "SPARE_OUT",
+        "kind": "passive"
+      },
+      "14": {
+        "name": "OUT4",
+        "net": "SPARE_OUT",
+        "kind": "output"
+      }
+    },
+    "x": 45,
+    "y": 43,
+    "rotation": 0,
+    "height_mm": 1.75,
+    "source": "opamp",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      43.0,
+      38.625,
+      4.0,
+      8.75
+    ]
+  },
+  {
+    "ref": "R8",
+    "value": "100k",
+    "mpn": "CRCW0603 series; value=100k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_I_POS",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 35,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      34.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "R24",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_Q_INV",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_QN",
+        "kind": "passive"
+      }
+    },
+    "x": 54,
+    "y": 91,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      53.15,
+      90.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "R22",
+    "value": "100k",
+    "mpn": "CRCW0603 series; value=100k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_Q_BIAS",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 34,
+    "y": 87,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      33.15,
+      86.5375,
+      1.7000000000000028,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "C31",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_IP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 68,
+    "y": 34,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      67.15,
+      33.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R3",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "LO_RESET_N",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 85,
+    "y": 12,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      84.15,
+      11.5375,
+      1.6999999999999886,
+      0.9250000000000007
+    ]
+  },
+  {
+    "ref": "C28",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 39,
+    "y": 76,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      38.15,
+      75.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C7",
+    "value": "10u",
+    "mpn": "KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "CODEC_REF",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 36,
+    "y": 31,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      34.95,
+      30.325,
+      2.0999999999999943,
+      1.3500000000000014
+    ]
+  },
+  {
+    "ref": "C19",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "LP_Q",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 31,
+    "y": 59,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      30.15,
+      58.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C22",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DAC_I",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_I_BIAS",
+        "kind": "passive"
+      }
+    },
+    "x": 28,
+    "y": 65,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      27.15,
+      64.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "C13",
+    "value": "100p",
+    "mpn": "KEMET 0603 C0G 25V; 100p; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_I_POS",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 38,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      37.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R21",
+    "value": "100",
+    "mpn": "CRCW0603 series; value=100; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_IN",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_IN_F",
+        "kind": "passive"
+      }
+    },
+    "x": 67,
+    "y": 65,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      66.15,
+      64.5375,
+      1.6999999999999886,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "R7",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DET_IP",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_I_POS",
+        "kind": "passive"
+      }
+    },
+    "x": 57,
+    "y": 35,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      56.15,
+      34.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C25",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DAC_Q",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_Q_BIAS",
+        "kind": "passive"
+      }
+    },
+    "x": 28,
+    "y": 87,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      27.15,
+      86.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "Q1",
+    "value": "2N7002",
+    "mpn": "2N7002",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HF_TX",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "COIL_LOW",
+        "kind": "passive"
+      }
+    },
+    "x": 109,
+    "y": 65,
+    "rotation": 0,
+    "height_mm": 1.1,
+    "source": "mosfet",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      108.3,
+      63.5,
+      1.4000000000000057,
+      3.0
+    ]
+  },
+  {
+    "ref": "C29",
+    "value": "100n",
+    "mpn": "KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 89,
+    "y": 43,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      88.15,
+      42.55,
+      1.6999999999999886,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R4",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HF_TX_N",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "+3V3",
+        "kind": "passive"
+      }
+    },
+    "x": 109,
+    "y": 74,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      108.15,
+      73.5375,
+      1.6999999999999886,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "R26",
+    "value": "100",
+    "mpn": "CRCW0603 series; value=100; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_QN",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "TX_QN_F",
+        "kind": "passive"
+      }
+    },
+    "x": 67,
+    "y": 87,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      66.15,
+      86.5375,
+      1.6999999999999886,
+      0.9250000000000114
+    ]
+  },
+  {
+    "ref": "J1",
+    "value": "CONTROL_INTERFACE",
+    "mpn": "Samtec TSW-010-07-D-S",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "5",
+        "net": "I2C_SDA",
+        "kind": "passive"
+      },
+      "6": {
+        "name": "6",
+        "net": "I2C_SCL",
+        "kind": "passive"
+      },
+      "7": {
+        "name": "7",
+        "net": "I2S_MCLK",
+        "kind": "passive"
+      },
+      "8": {
+        "name": "8",
+        "net": "I2S_BCLK",
+        "kind": "passive"
+      },
+      "9": {
+        "name": "9",
+        "net": "I2S_LRCK",
+        "kind": "passive"
+      },
+      "10": {
+        "name": "10",
+        "net": "I2S_TX",
+        "kind": "passive"
+      },
+      "11": {
+        "name": "11",
+        "net": "I2S_RX",
+        "kind": "passive"
+      },
+      "12": {
+        "name": "12",
+        "net": "CODEC_RESET_N",
+        "kind": "passive"
+      },
+      "13": {
+        "name": "13",
+        "net": "HF_TX_N",
+        "kind": "passive"
+      },
+      "14": {
+        "name": "14",
+        "net": "HF_AUDIO",
+        "kind": "passive"
+      },
+      "15": {
+        "name": "15",
+        "net": "HF_MIC",
+        "kind": "passive"
+      },
+      "16": {
+        "name": "16",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "17": {
+        "name": "17",
+        "net": "FILTER_ID",
+        "kind": "passive"
+      },
+      "18": {
+        "name": "18",
+        "net": "LO_RESET_N",
+        "kind": "passive"
+      },
+      "19": {
+        "name": "19",
+        "net": "GND",
+        "kind": "passive"
+      },
+      "20": {
+        "name": "20",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 10,
+    "y": 10,
+    "rotation": 0,
+    "height_mm": 8.5,
+    "source": "samtec_headers",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      8.68,
+      8.68,
+      5.18,
+      25.5
+    ]
+  },
+  {
+    "ref": "C8",
+    "value": "1u",
+    "mpn": "KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "AUDIO_RAW",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "HF_AUDIO",
+        "kind": "passive"
+      }
+    },
+    "x": 35,
+    "y": 20,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      34.15,
+      19.55,
+      1.7000000000000028,
+      0.8999999999999986
+    ]
+  },
+  {
+    "ref": "K1",
+    "value": "G6K-2F-Y-DC5",
+    "mpn": "G6K-2F-Y-DC5",
+    "footprint": "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+5V",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RF_RX",
+        "kind": "passive"
+      },
+      "3": {
+        "name": "3",
+        "net": "RF_COMMON",
+        "kind": "passive"
+      },
+      "4": {
+        "name": "4",
+        "net": "RF_TX",
+        "kind": "passive"
+      },
+      "5": {
+        "name": "5",
+        "net": null,
+        "kind": "passive"
+      },
+      "6": {
+        "name": "6",
+        "net": null,
+        "kind": "passive"
+      },
+      "7": {
+        "name": "7",
+        "net": null,
+        "kind": "passive"
+      },
+      "8": {
+        "name": "8",
+        "net": "COIL_LOW",
+        "kind": "passive"
+      }
+    },
+    "x": 105,
+    "y": 55,
+    "rotation": 0,
+    "height_mm": 5.2,
+    "source": "relay",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      101.7,
+      49.94,
+      6.61999999999999,
+      10.120000000000005
+    ]
+  },
+  {
+    "ref": "C12",
+    "value": "10u",
+    "mpn": "KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "VMID_RAW",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 48,
+    "y": 28,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      46.95,
+      27.325,
+      2.0999999999999943,
+      1.3500000000000014
+    ]
+  },
+  {
+    "ref": "R27",
+    "value": "49.9",
+    "mpn": "CRCW0603 series; value=49.9; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "MIX_RX",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 93,
+    "y": 42,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      92.15,
+      41.5375,
+      1.6999999999999886,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "R6",
+    "value": "10k",
+    "mpn": "CRCW0603 series; value=10k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "VMID_RAW",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 49,
+    "y": 24,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      48.15,
+      23.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C26",
+    "value": "10n",
+    "mpn": "KEMET 0603 C0G 25V; 10n; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TX_QP_F",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "VMID",
+        "kind": "passive"
+      }
+    },
+    "x": 61,
+    "y": 91,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      60.15,
+      90.55,
+      1.7000000000000028,
+      0.9000000000000057
+    ]
+  },
+  {
+    "ref": "R10",
+    "value": "100k",
+    "mpn": "CRCW0603 series; value=100k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_I_NEG",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "RX_I",
+        "kind": "passive"
+      }
+    },
+    "x": 52,
+    "y": 41,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      51.15,
+      40.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  },
+  {
+    "ref": "C38",
+    "value": "10u",
+    "mpn": "KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "+3V3",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND",
+        "kind": "passive"
+      }
+    },
+    "x": 17,
+    "y": 14,
+    "rotation": 0,
+    "height_mm": 1,
+    "source": "kemet_capacitors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      15.95,
+      13.325,
+      2.1000000000000014,
+      1.3500000000000014
+    ]
+  },
+  {
+    "ref": "R11",
+    "value": "1k",
+    "mpn": "CRCW0603 series; value=1k; 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "RX_I",
+        "kind": "passive"
+      },
+      "2": {
+        "name": "2",
+        "net": "LP_I",
+        "kind": "passive"
+      }
+    },
+    "x": 36,
+    "y": 41,
+    "rotation": 0,
+    "height_mm": 0.5,
+    "source": "vishay_resistors",
+    "geometry": "KiCad footprint / simplified body envelope",
+    "body_bbox_mm": [
+      35.15,
+      40.5375,
+      1.7000000000000028,
+      0.9249999999999972
+    ]
+  }
+]

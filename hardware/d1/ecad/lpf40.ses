@@ -1,0 +1,250 @@
+(session lpf40
+  (base_design lpf40)
+  (placement
+    (resolution um 10)
+    (component MountingHole_3.2mm_M3
+      (place H2 440000 -200000 front 0)
+      (place H1 440000 -40000 front 0)
+    )
+    (component SkyWave:Resistor_SMD_R_0603_1608Metric
+      (place R1 160000 -190000 front 0)
+    )
+    (component SkyWave:Capacitor_SMD_C_0603_1608Metric
+      (place C4 400000 -110000 front 90)
+      (place C3 310000 -110000 front 90)
+      (place C2 220000 -110000 front 90)
+      (place C1 130000 -110000 front 90)
+    )
+    (component SkyWave:Inductor_SMD_L_0805_2012Metric
+      (place L3 355000 -100000 front 0)
+      (place L2 265000 -100000 front 0)
+      (place L1 175000 -100000 front 0)
+    )
+    (component SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x03_P2.54mm_Vertical
+      (place J1 40000 -70000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "7.0.11+dfsg-1build4")
+    )
+    (library_out 
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net FILTER_ID
+        (wire
+          (path F.Cu 2000
+            40000 -120800
+            51017 -120800
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            51017 -120800
+            51017 -122177
+            118840 -190000
+            151750 -190000
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 2000
+            65400 -70000
+            65400 -95400
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            175000 -97480
+            168213 -90693
+            141557 -90693
+            130000 -102250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            168250 -190000
+            175000 -183250
+            175000 -97480
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            220000 -102250
+            209222 -91472
+            181008 -91472
+            175000 -97480
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            65400 -95400
+            76417 -95400
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            130000 -102250
+            83267 -102250
+            76417 -95400
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            400000 -102250
+            392930 -109320
+            361726 -109320
+            354215 -101809
+            354215 -96816
+            348567 -91168
+            321082 -91168
+            310000 -102250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            310000 -102250
+            299024 -91274
+            230976 -91274
+            220000 -102250
+          )
+        )
+      )
+      (net LP1
+        (wire
+          (path F.Cu 2000
+            254375 -100000
+            237750 -100000
+            220000 -117750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            185625 -100000
+            203375 -117750
+            220000 -117750
+          )
+        )
+      )
+      (net LP2
+        (wire
+          (path F.Cu 2000
+            310000 -116126
+            291751 -116126
+            275625 -100000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            310000 -116126
+            310000 -117750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            344375 -100000
+            326126 -100000
+            310000 -116126
+          )
+        )
+      )
+      (net RF_IN
+        (wire
+          (path F.Cu 2000
+            130000 -117750
+            120350 -108100
+            62257 -108100
+            51017 -96860
+            51017 -90656
+            41378 -81017
+            40000 -81017
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            40000 -70000
+            40000 -81017
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            164375 -100000
+            147750 -100000
+            130000 -117750
+          )
+        )
+      )
+      (net RF_OUT
+        (wire
+          (path F.Cu 2000
+            400000 -117750
+            407592 -110158
+            407592 -98332
+            404188 -94928
+            370697 -94928
+            365625 -100000
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            40000 -95400
+            51017 -95400
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            364416 -86829
+            365625 -88038
+            365625 -100000
+          )
+        )
+        (via "Via[0-3]_600:300_um" 364416 -86829
+        )
+        (wire
+          (path B.Cu 2000
+            51017 -95400
+            51017 -94023
+            60696 -84344
+            361931 -84344
+            364416 -86829
+          )
+        )
+      )
+    )
+  )
+)

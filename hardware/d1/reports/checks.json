@@ -1,0 +1,90 @@
+{
+  "control": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "d0d61b30e2935acef3e3975066c8d368fd7eca532160ca49a15a83a6b4d2b346",
+    "schematic_sha256": "d04a5380cb91be658aba7045218bca5cef7e2b774ef42652c6862edbe21b9efc",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  },
+  "hf": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "b333c3137521ee707939d164126f536d3648d22227c08053255f78fb6482e3e2",
+    "schematic_sha256": "d5fa51867c125cef12e90f10d9b7416f7d9668d9a9ea6fde2dd0916def4a7903",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  },
+  "vhf": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "9da86d863aa1a7285e2047e35f0abb954ddd2f8a03e0e658c7f86ee8326076eb",
+    "schematic_sha256": "aa13fb1b68225cba40e427ebd2a8dac6a161c17d080a64b9e2fa40d22af028e3",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  },
+  "uhf": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "4d83cec76a87dfcbd3bbac9738502c5b447dfb5025fa90398fbbabba293520ad",
+    "schematic_sha256": "b5485781f15f6b54d3abc50b7be8e26187be6a631cfc2ae963c3637597fdd103",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  },
+  "lpf40": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "79bea65ed69c7bf07d42290949a145cae0a299758942e0cca4237a874128e5c6",
+    "schematic_sha256": "6a03a30dc8113df54b353cacfeacc137f840f2054a6c7520f722ed3757781552",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  },
+  "lpf20": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "286cc94c25b8605084c378adda930bf6bcb408f29f48a372eca36855f9619b9a",
+    "schematic_sha256": "f492ecfc9fc816aaeee07982cae0320b3fb0dc1cdc8936827f3e637d98ee6d59",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  },
+  "lpf15": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "0554fded28fb356028358639e391971ccd0f131d7355e823af84059e45e67037",
+    "schematic_sha256": "f7ea49913b51c21eab6388a178d5941493d28eae33a02cc65b7cde55fe6d8f75",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  },
+  "lpf10": {
+    "erc_returncode": 0,
+    "erc": {},
+    "drc_returncode": 0,
+    "drc": {},
+    "unconnected": 0,
+    "board_sha256": "234edb555c37af638c2c616b8b09806434cbb6b96d25017d0d61c5f75c3656c2",
+    "schematic_sha256": "cacc6af753c1ee245fdf6220732f901c16960a9da4c1a537def5e52738481e0f",
+    "connectivity_and_clearance_passed": true,
+    "production_released": false
+  }
+}

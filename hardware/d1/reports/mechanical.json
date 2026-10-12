@@ -1,0 +1,45 @@
+{
+  "units": "mm",
+  "enclosure_dimensions": [
+    164,
+    120,
+    74
+  ],
+  "pcb_placements": {
+    "control": [
+      8,
+      10,
+      50
+    ],
+    "hf": [
+      8,
+      10,
+      28
+    ],
+    "vhf": [
+      8,
+      10,
+      7
+    ],
+    "uhf": [
+      88,
+      10,
+      7
+    ],
+    "lpf40": [
+      83,
+      86,
+      7
+    ]
+  },
+  "board_to_enclosure_collisions": [],
+  "cross_board_collisions": [],
+  "models_valid": true,
+  "limits": [
+    "Component bodies are simplified envelopes; not manufacturer STEP models.",
+    "OLED tray assumes 35.6 x 33.7 mm module; measure purchased module before printing.",
+    "Cables, screws, speaker, microphone, panel PTT and SMA pigtails require assembly validation.",
+    "No battery compartment or charging circuit. Bench enclosure, not Flipper-sized product.",
+    "3D export and geometry checks do not validate print tolerances or heat dissipation."
+  ]
+}

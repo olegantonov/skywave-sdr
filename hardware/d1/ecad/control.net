@@ -1,0 +1,3734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/daniel/skywave-sdr/hardware/d1/ecad/control.kicad_sch</source>
+    <date>2026-10-12T20:04:02</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SkyWave D1 - control</title>
+        <company>Daniel Marques / SkyWave SDR</company>
+        <rev>D1-prototype</rev>
+        <date>2026-10-12</date>
+        <source>control.kicad_sch</source>
+        <comment number="1" value="Engineering prototype - not production released"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C1" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8b884f4-aa62-5ec8-8e42-1d24058249a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C2" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bdca505-5ab2-5d9a-8731-915bb0689456</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0805_2012Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0805_2012Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C3" description=""/>
+      <property name="MPN" value="KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36597eb3-7f93-5d2e-a1b6-0dfd8c832d60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C4" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e981bfe-908d-5034-afc0-438e9606e52f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>22u tantalum</value>
+      <footprint>SkyWave:Capacitor_Tantalum_SMD_CP_EIA-3528-21_Kemet-B</footprint>
+      <datasheet>tantalum</datasheet>
+      <fields>
+        <field name="MPN">T491B226K016AT</field>
+        <field name="Footprint">SkyWave:Capacitor_Tantalum_SMD_CP_EIA-3528-21_Kemet-B</field>
+        <field name="Datasheet">tantalum</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C5" description=""/>
+      <property name="MPN" value="T491B226K016AT"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5c9cd9f-e63b-53af-ab74-8ffef28aaf87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0805_2012Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0805_2012Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C6" description=""/>
+      <property name="MPN" value="KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14cc26f6-87ac-582e-8efe-833b4fc6fe52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C7" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74462543-9059-53c8-843d-76aebde18fc7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C8" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83194f70-4dfa-5000-8632-d5d49b18f495</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0805_2012Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0805_2012Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C9" description=""/>
+      <property name="MPN" value="KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9aa5f657-5a2f-5df3-a86f-39716421b6ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C10" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e86554a-6e50-5c7c-9d55-8370c4d33890</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C11" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed3fce90-255e-56f8-bada-2b0dde751da5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C12" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>059ad835-650b-545c-847b-d1307e957c1a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C13" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3aeda88-90b0-5377-b459-87f5fab2f072</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C14" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d448501-6cb9-559d-815d-37acb3bfd055</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C15" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0a1de4f-ba05-558f-a8f3-805b8f36d79f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C16" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97df7387-e90d-5ef7-9b87-6161ed6d1496</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C17" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 1u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e74a7415-91a3-53b9-a3f7-043e0358ced0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0805_2012Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0805_2012Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C18" description=""/>
+      <property name="MPN" value="KEMET 0805 X7R 25V; 10u; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>551926bb-c65e-5dad-b8d7-889809fe389c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C19" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1e6aeae-aab1-59d9-849e-798a081d4d99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C20" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c1e5f15-3fe7-5756-8c99-9a0038305715</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>220u</value>
+      <footprint>SkyWave:Capacitor_THT_CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>electrolytic</datasheet>
+      <fields>
+        <field name="MPN">EEUFR1A221</field>
+        <field name="Footprint">SkyWave:Capacitor_THT_CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet">electrolytic</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C21" description=""/>
+      <property name="MPN" value="EEUFR1A221"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cd05d71-3738-5df3-a406-ef42fd925400</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C22" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7af80a8c-d375-5dac-8ca3-493f47f0015c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C23" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d16b3a14-4bfc-5ab4-9495-ac927888c143</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C24" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f021de4-9686-54ef-94cd-1a1aa0a52e44</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>SkyWave:Capacitor_SMD_C_0603_1608Metric</footprint>
+      <datasheet>kemet_capacitors</datasheet>
+      <fields>
+        <field name="MPN">KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling</field>
+        <field name="Footprint">SkyWave:Capacitor_SMD_C_0603_1608Metric</field>
+        <field name="Datasheet">kemet_capacitors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_C25" description=""/>
+      <property name="MPN" value="KEMET 0603 X7R 25V; 100n; 5% RF/10% decoupling"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88118be6-2155-5aae-a29c-0ae513a613ce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>PTT_PANEL</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-002-07-S-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J1" description=""/>
+      <property name="MPN" value="Samtec TSW-002-07-S-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceea935c-1d77-5871-9191-f43b59ade5a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>OLED_I2C</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-004-07-S-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J2" description=""/>
+      <property name="MPN" value="Samtec TSW-004-07-S-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df2cddea-c7e9-51aa-b076-00fa199737ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>POWER_5V</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-002-07-S-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J3" description=""/>
+      <property name="MPN" value="Samtec TSW-002-07-S-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c532e6d9-b49a-5c95-808f-1cb52500d533</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>USB4105-GF-A</value>
+      <footprint>SkyWave:Connector_USB_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <datasheet>usb</datasheet>
+      <fields>
+        <field name="MPN">USB4105-GF-A</field>
+        <field name="Footprint">SkyWave:Connector_USB_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet">usb</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J4" description=""/>
+      <property name="MPN" value="USB4105-GF-A"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>514ee94f-8ea8-5170-a494-e3d6dea98918</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="A6"/>
+            <pin num="A7"/>
+            <pin num="A8"/>
+            <pin num="A9"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B4"/>
+            <pin num="B5"/>
+            <pin num="B6"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+            <pin num="B12"/>
+            <pin num="S1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>HF_INTERFACE</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-010-07-D-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x10_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J5" description=""/>
+      <property name="MPN" value="Samtec TSW-010-07-D-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f25c415-383f-5c6d-bab6-a3a33091f22d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>VHF_INTERFACE</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-005-07-D-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J6" description=""/>
+      <property name="MPN" value="Samtec TSW-005-07-D-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>681a59fe-284a-599c-8795-08eab5c2e42e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>UHF_INTERFACE</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-005-07-D-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J7" description=""/>
+      <property name="MPN" value="Samtec TSW-005-07-D-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c777f1d5-c28f-52ba-a755-0187b0f2db95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>MIC_ELECTRET</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-002-07-S-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J8" description=""/>
+      <property name="MPN" value="Samtec TSW-002-07-S-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db7dcee4-c7a2-5d91-b095-ecc6060d87b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>SPEAKER_8_OHM</value>
+      <footprint>SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>samtec_headers</datasheet>
+      <fields>
+        <field name="MPN">Samtec TSW-002-07-S-S</field>
+        <field name="Footprint">SkyWave:Connector_PinHeader_2.54mm_PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">samtec_headers</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_J9" description=""/>
+      <property name="MPN" value="Samtec TSW-002-07-S-S"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0226e4c6-2dfa-562c-89f1-cc16c55c68b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R1" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>430d618b-9210-5226-8da4-fdfc0ee2a92f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R2" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70c3941f-b1d7-5618-ae78-0ada1657b4d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R3" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a05b4bc-1498-5984-b802-9771227e84d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R4" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ac5b00f-caf1-5594-8e2d-fa53fa453d42</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R5" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b992d2d6-67e7-5a24-a086-9c30ad6ea908</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R6" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3ed2f08-1e1f-5d0d-9f32-6ea2ebec769f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=4.7k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R7" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=4.7k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d796f9c7-9eb5-5c1d-9ec8-9a334b2a8f87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=4.7k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R8" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=4.7k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cbfac79-9004-5189-9acc-6d7d5616d002</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R9" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9abc8fdb-e5cf-564a-b08d-e17f0a2172ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>0.47</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=0.47; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R10" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=0.47; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b4ff0c3-5b4f-5ad2-b20d-b3ad89bcaa88</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>5.1k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=5.1k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R11" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=5.1k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>003c10e1-2e91-55e0-8c79-27d0523b04f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>5.1k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=5.1k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R12" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=5.1k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6427604c-335f-5273-976b-6159703b68d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>22</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=22; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R13" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=22; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f401ab0b-5adf-5ce6-b26e-dc315def2d23</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>22</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=22; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R14" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=22; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2079b75a-c574-5947-9281-01564c040d3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R15" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b19b9c66-44cd-5e76-bfd6-521ee410f901</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R16" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46b2bc7b-8fc1-5a59-85e0-84d234d56f3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R17" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a29d4e41-e22d-5658-b133-5a2757af1b3a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R18" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd159881-5b05-59eb-a665-e19dd751f9f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R19" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff4b675e-f630-502c-b374-d88837596db2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R20" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dd85cf0-a037-5c84-9f59-2e6d1cb75d19</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R21" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>849003a9-c977-5469-970a-a4f0345a99f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R22" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97cff5c1-3ad3-5a53-ac1a-18a99c0dad92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R23" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>067bfb67-5a3b-5bb3-8f43-3529b286c780</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R24" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2844090-4ab0-50b6-bfbf-11bdb6abbdd7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R25" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50c013b3-b6bf-5b9a-9663-8ccade97b2da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R26" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c61331a2-7192-574f-962d-9646e4f62174</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R27" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5674db35-5055-551d-a89a-434c2a4c9dd5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>2.2k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=2.2k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R28" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=2.2k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea562b33-68d6-5ec9-bcb2-423675944ee5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>100k</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=100k; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R29" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=100k; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c540cc40-c447-525f-8a3b-4d896b3054e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>10</value>
+      <footprint>SkyWave:Resistor_SMD_R_0603_1608Metric</footprint>
+      <datasheet>vishay_resistors</datasheet>
+      <fields>
+        <field name="MPN">CRCW0603 series; value=10; 1%</field>
+        <field name="Footprint">SkyWave:Resistor_SMD_R_0603_1608Metric</field>
+        <field name="Datasheet">vishay_resistors</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_R30" description=""/>
+      <property name="MPN" value="CRCW0603 series; value=10; 1%"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f854ae3-a2de-5a53-b7f8-b43fe2632561</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RV1">
+      <value>10k volume</value>
+      <footprint>SkyWave:Potentiometer_THT_Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>volume</datasheet>
+      <fields>
+        <field name="MPN">3296W-1-103LF</field>
+        <field name="Footprint">SkyWave:Potentiometer_THT_Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet">volume</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_RV1" description=""/>
+      <property name="MPN" value="3296W-1-103LF"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8365b966-67d7-5a60-b409-9e39c81e3caa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>B3F-1000</value>
+      <footprint>SkyWave:Button_Switch_THT_SW_PUSH_6mm</footprint>
+      <datasheet>buttons</datasheet>
+      <fields>
+        <field name="MPN">B3F-1000</field>
+        <field name="Footprint">SkyWave:Button_Switch_THT_SW_PUSH_6mm</field>
+        <field name="Datasheet">buttons</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_SW1" description=""/>
+      <property name="MPN" value="B3F-1000"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4348d9b1-4964-5241-9eba-355d6eea33af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>B3F-1000</value>
+      <footprint>SkyWave:Button_Switch_THT_SW_PUSH_6mm</footprint>
+      <datasheet>buttons</datasheet>
+      <fields>
+        <field name="MPN">B3F-1000</field>
+        <field name="Footprint">SkyWave:Button_Switch_THT_SW_PUSH_6mm</field>
+        <field name="Datasheet">buttons</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_SW2" description=""/>
+      <property name="MPN" value="B3F-1000"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5040ebfd-d48f-5a90-bc06-678eb74df805</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW3">
+      <value>B3F-1000</value>
+      <footprint>SkyWave:Button_Switch_THT_SW_PUSH_6mm</footprint>
+      <datasheet>buttons</datasheet>
+      <fields>
+        <field name="MPN">B3F-1000</field>
+        <field name="Footprint">SkyWave:Button_Switch_THT_SW_PUSH_6mm</field>
+        <field name="Datasheet">buttons</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_SW3" description=""/>
+      <property name="MPN" value="B3F-1000"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cab6f9aa-5428-5928-9782-23720aa9f39e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW4">
+      <value>B3F-1000</value>
+      <footprint>SkyWave:Button_Switch_THT_SW_PUSH_6mm</footprint>
+      <datasheet>buttons</datasheet>
+      <fields>
+        <field name="MPN">B3F-1000</field>
+        <field name="Footprint">SkyWave:Button_Switch_THT_SW_PUSH_6mm</field>
+        <field name="Datasheet">buttons</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_SW4" description=""/>
+      <property name="MPN" value="B3F-1000"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e30c641-72f6-569e-aa1c-339630d0e96b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW5">
+      <value>B3F-1000</value>
+      <footprint>SkyWave:Button_Switch_THT_SW_PUSH_6mm</footprint>
+      <datasheet>buttons</datasheet>
+      <fields>
+        <field name="MPN">B3F-1000</field>
+        <field name="Footprint">SkyWave:Button_Switch_THT_SW_PUSH_6mm</field>
+        <field name="Datasheet">buttons</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_SW5" description=""/>
+      <property name="MPN" value="B3F-1000"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76c05bfd-06a3-5677-bebf-6d42995592fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-S3-WROOM-1-N8</value>
+      <footprint>SkyWave:RF_Module_ESP32-S3-WROOM-1</footprint>
+      <datasheet>esp32</datasheet>
+      <fields>
+        <field name="MPN">ESP32-S3-WROOM-1-N8</field>
+        <field name="Footprint">SkyWave:RF_Module_ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">esp32</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U1" description=""/>
+      <property name="MPN" value="ESP32-S3-WROOM-1-N8"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc26d218-a7f3-5402-9b13-2d3089dc25f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>LM1117IMP-3.3</value>
+      <footprint>SkyWave:Package_TO_SOT_SMD_SOT-223</footprint>
+      <datasheet>ldo</datasheet>
+      <fields>
+        <field name="MPN">LM1117IMP-3.3</field>
+        <field name="Footprint">SkyWave:Package_TO_SOT_SMD_SOT-223</field>
+        <field name="Datasheet">ldo</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U2" description=""/>
+      <property name="MPN" value="LM1117IMP-3.3"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c86cad47-4b1c-53c0-99c3-df601cabc0e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>USBLC6-2SC6</value>
+      <footprint>SkyWave:Package_TO_SOT_SMD_SOT-23-6</footprint>
+      <datasheet>esd</datasheet>
+      <fields>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Footprint">SkyWave:Package_TO_SOT_SMD_SOT-23-6</field>
+        <field name="Datasheet">esd</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U3" description=""/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9399c5cd-7c7e-5b37-811d-eabd53dee899</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC1G04DBVR</value>
+      <footprint>SkyWave:Package_TO_SOT_SMD_SOT-23-5</footprint>
+      <datasheet>inverter</datasheet>
+      <fields>
+        <field name="MPN">SN74LVC1G04DBVR</field>
+        <field name="Footprint">SkyWave:Package_TO_SOT_SMD_SOT-23-5</field>
+        <field name="Datasheet">inverter</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U4" description=""/>
+      <property name="MPN" value="SN74LVC1G04DBVR"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bd72ae4-7b67-57b9-b295-dc0e069c0cff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC1G00DBVR</value>
+      <footprint>SkyWave:Package_TO_SOT_SMD_SOT-23-5</footprint>
+      <datasheet>nand</datasheet>
+      <fields>
+        <field name="MPN">SN74LVC1G00DBVR</field>
+        <field name="Footprint">SkyWave:Package_TO_SOT_SMD_SOT-23-5</field>
+        <field name="Datasheet">nand</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U5" description=""/>
+      <property name="MPN" value="SN74LVC1G00DBVR"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bdedb94-94c4-58b9-b7bb-011085a7bf71</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>SN74HC139D</value>
+      <footprint>SkyWave:Package_SO_SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>decoder</datasheet>
+      <fields>
+        <field name="MPN">SN74HC139D</field>
+        <field name="Footprint">SkyWave:Package_SO_SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">decoder</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U6" description=""/>
+      <property name="MPN" value="SN74HC139D"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3aaf9160-552f-594a-84dc-1d8f44142296</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>CD74HCT4052M</value>
+      <footprint>SkyWave:Package_SO_SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>audio_mux</datasheet>
+      <fields>
+        <field name="MPN">CD74HCT4052M</field>
+        <field name="Footprint">SkyWave:Package_SO_SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">audio_mux</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U7" description=""/>
+      <property name="MPN" value="CD74HCT4052M"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f867bd3f-e820-53a7-9aec-fbf55cae0358</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>LM386N-1</value>
+      <footprint>SkyWave:Package_DIP_DIP-8_W7.62mm</footprint>
+      <datasheet>audio_amp</datasheet>
+      <fields>
+        <field name="MPN">LM386N-1</field>
+        <field name="Footprint">SkyWave:Package_DIP_DIP-8_W7.62mm</field>
+        <field name="Datasheet">audio_amp</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyWave" part="control_U8" description=""/>
+      <property name="MPN" value="LM386N-1"/>
+      <property name="Sheetname" value="control"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4098cc2c-5d0c-58e4-b6f5-5ca769578960</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SkyWave" part="control_C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C10">
+      <fields>
+        <field name="Reference">C10</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C11">
+      <fields>
+        <field name="Reference">C11</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C12">
+      <fields>
+        <field name="Reference">C12</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C13">
+      <fields>
+        <field name="Reference">C13</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C14">
+      <fields>
+        <field name="Reference">C14</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C15">
+      <fields>
+        <field name="Reference">C15</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C16">
+      <fields>
+        <field name="Reference">C16</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C17">
+      <fields>
+        <field name="Reference">C17</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C18">
+      <fields>
+        <field name="Reference">C18</field>
+        <field name="Value">10u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C19">
+      <fields>
+        <field name="Reference">C19</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C20">
+      <fields>
+        <field name="Reference">C20</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C21">
+      <fields>
+        <field name="Reference">C21</field>
+        <field name="Value">220u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C22">
+      <fields>
+        <field name="Reference">C22</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C23">
+      <fields>
+        <field name="Reference">C23</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C24">
+      <fields>
+        <field name="Reference">C24</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C25">
+      <fields>
+        <field name="Reference">C25</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">10u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">22u tantalum</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">10u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">10u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">PTT_PANEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">OLED_I2C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">POWER_5V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">USB4105-GF-A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="A1" type="passive"/>
+        <pin num="A4" name="A4" type="passive"/>
+        <pin num="A5" name="A5" type="passive"/>
+        <pin num="A6" name="A6" type="passive"/>
+        <pin num="A7" name="A7" type="passive"/>
+        <pin num="A8" name="A8" type="passive"/>
+        <pin num="A9" name="A9" type="passive"/>
+        <pin num="A12" name="A12" type="passive"/>
+        <pin num="B1" name="B1" type="passive"/>
+        <pin num="B4" name="B4" type="passive"/>
+        <pin num="B5" name="B5" type="passive"/>
+        <pin num="B6" name="B6" type="passive"/>
+        <pin num="B7" name="B7" type="passive"/>
+        <pin num="B8" name="B8" type="passive"/>
+        <pin num="B9" name="B9" type="passive"/>
+        <pin num="B12" name="B12" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">HF_INTERFACE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J6">
+      <fields>
+        <field name="Reference">J6</field>
+        <field name="Value">VHF_INTERFACE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J7">
+      <fields>
+        <field name="Reference">J7</field>
+        <field name="Value">UHF_INTERFACE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J8">
+      <fields>
+        <field name="Reference">J8</field>
+        <field name="Value">MIC_ELECTRET</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_J9">
+      <fields>
+        <field name="Reference">J9</field>
+        <field name="Value">SPEAKER_8_OHM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">0.47</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R21">
+      <fields>
+        <field name="Reference">R21</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R22">
+      <fields>
+        <field name="Reference">R22</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R23">
+      <fields>
+        <field name="Reference">R23</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R24">
+      <fields>
+        <field name="Reference">R24</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R25">
+      <fields>
+        <field name="Reference">R25</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R26">
+      <fields>
+        <field name="Reference">R26</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R27">
+      <fields>
+        <field name="Reference">R27</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R28">
+      <fields>
+        <field name="Reference">R28</field>
+        <field name="Value">2.2k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R29">
+      <fields>
+        <field name="Reference">R29</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R30">
+      <fields>
+        <field name="Reference">R30</field>
+        <field name="Value">10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_RV1">
+      <fields>
+        <field name="Reference">RV1</field>
+        <field name="Value">10k volume</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">B3F-1000</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_SW2">
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">B3F-1000</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_SW3">
+      <fields>
+        <field name="Reference">SW3</field>
+        <field name="Value">B3F-1000</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_SW4">
+      <fields>
+        <field name="Reference">SW4</field>
+        <field name="Value">B3F-1000</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_SW5">
+      <fields>
+        <field name="Reference">SW5</field>
+        <field name="Value">B3F-1000</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">ESP32-S3-WROOM-1-N8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO4" type="bidirectional"/>
+        <pin num="5" name="IO5" type="bidirectional"/>
+        <pin num="6" name="IO6" type="bidirectional"/>
+        <pin num="7" name="IO7" type="bidirectional"/>
+        <pin num="8" name="IO15" type="bidirectional"/>
+        <pin num="9" name="IO16" type="bidirectional"/>
+        <pin num="10" name="IO17" type="bidirectional"/>
+        <pin num="11" name="IO18" type="bidirectional"/>
+        <pin num="12" name="IO8" type="bidirectional"/>
+        <pin num="13" name="IO19" type="bidirectional"/>
+        <pin num="14" name="IO20" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO46" type="bidirectional"/>
+        <pin num="17" name="IO9" type="bidirectional"/>
+        <pin num="18" name="IO10" type="bidirectional"/>
+        <pin num="19" name="IO11" type="bidirectional"/>
+        <pin num="20" name="IO12" type="bidirectional"/>
+        <pin num="21" name="IO13" type="bidirectional"/>
+        <pin num="22" name="IO14" type="bidirectional"/>
+        <pin num="23" name="IO21" type="bidirectional"/>
+        <pin num="24" name="IO47" type="bidirectional"/>
+        <pin num="25" name="IO48" type="bidirectional"/>
+        <pin num="26" name="IO45" type="bidirectional"/>
+        <pin num="27" name="IO0" type="bidirectional"/>
+        <pin num="28" name="IO35" type="bidirectional"/>
+        <pin num="29" name="IO36" type="bidirectional"/>
+        <pin num="30" name="IO37" type="bidirectional"/>
+        <pin num="31" name="IO38" type="bidirectional"/>
+        <pin num="32" name="IO39" type="bidirectional"/>
+        <pin num="33" name="IO40" type="bidirectional"/>
+        <pin num="34" name="IO41" type="bidirectional"/>
+        <pin num="35" name="IO42" type="bidirectional"/>
+        <pin num="36" name="IO44" type="bidirectional"/>
+        <pin num="37" name="IO43" type="bidirectional"/>
+        <pin num="38" name="IO2" type="bidirectional"/>
+        <pin num="39" name="IO1" type="bidirectional"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LM1117IMP-3.3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="TAB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">SN74LVC1G04DBVR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U5">
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">SN74LVC1G00DBVR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U6">
+      <fields>
+        <field name="Reference">U6</field>
+        <field name="Value">SN74HC139D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1G" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1B" type="input"/>
+        <pin num="4" name="1Y0" type="output"/>
+        <pin num="5" name="1Y1" type="output"/>
+        <pin num="6" name="1Y2" type="output"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U7">
+      <fields>
+        <field name="Reference">U7</field>
+        <field name="Value">CD74HCT4052M</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyWave" part="control_U8">
+      <fields>
+        <field name="Reference">U8</field>
+        <field name="Value">LM386N-1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SkyWave">
+      <uri>${KIPRJMOD}/SkyWave.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C22" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C24" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="3V3_2" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="OUT_2" pintype="power_out"/>
+      <node ref="U2" pin="4" pinfunction="TAB_4" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="16_16" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="C19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C25" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN_3" pintype="power_in"/>
+      <node ref="U7" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="3" name="AMP_BYPASS" class="Default">
+      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="4" name="AMP_IN" class="Default">
+      <node ref="RV1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="IN_3" pintype="input"/>
+    </net>
+    <net code="5" name="AMP_OUT" class="Default">
+      <node ref="C20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="OUT_5" pintype="output"/>
+    </net>
+    <net code="6" name="AUDIO_SELECTED" class="Default">
+      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="7" name="BOOT_N" class="Default">
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="IO0_27" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="BTN_BAND" class="Default">
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IO7_7" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="BTN_DOWN" class="Default">
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IO5_5" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="BTN_UP" class="Default">
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IO6_6" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="CC1" class="Default">
+      <node ref="J4" pin="A5" pinfunction="A5_A5" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="12" name="CC2" class="Default">
+      <node ref="J4" pin="B5" pinfunction="B5_B5" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="13" name="CODEC_RESET_N" class="Default">
+      <node ref="J5" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IO15_8" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="ESP_EN" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="15" name="FILTER_ID" class="Default">
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J5" pin="17" pinfunction="17_17" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="IO1_39" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C22" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C23" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C24" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C25" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="A1" pinfunction="A1_A1" pintype="passive"/>
+      <node ref="J4" pin="A12" pinfunction="A12_A12" pintype="passive"/>
+      <node ref="J4" pin="B1" pinfunction="B1_B1" pintype="passive"/>
+      <node ref="J4" pin="B12" pinfunction="B12_B12" pintype="passive"/>
+      <node ref="J4" pin="S1" pinfunction="S1_S1" pintype="passive"/>
+      <node ref="J5" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="J5" pin="19" pinfunction="19_19" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="20" pinfunction="20_20" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U1" pin="40" pinfunction="GND_40" pintype="power_in"/>
+      <node ref="U1" pin="41" pinfunction="EP_41" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="14_14" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="17" name="HF_AUDIO" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="14_14" pintype="passive"/>
+    </net>
+    <net code="18" name="HF_AUDIO_B" class="Default">
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="19" name="HF_MIC" class="Default">
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="15" pinfunction="15_15" pintype="passive"/>
+    </net>
+    <net code="20" name="HF_MIC_B" class="Default">
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="12_12" pintype="passive"/>
+    </net>
+    <net code="21" name="HF_TX_N" class="Default">
+      <node ref="J5" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="1Y0_4" pintype="output"/>
+    </net>
+    <net code="22" name="I2C_SCL" class="Default">
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="IO9_17" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="I2C_SDA" class="Default">
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IO8_12" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="I2S_BCLK" class="Default">
+      <node ref="J5" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="IO11_19" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="I2S_LRCK" class="Default">
+      <node ref="J5" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="IO12_20" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="I2S_MCLK" class="Default">
+      <node ref="J5" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="IO10_18" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="I2S_RX" class="Default">
+      <node ref="J5" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="IO14_22" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="I2S_TX" class="Default">
+      <node ref="J5" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="IO13_21" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="LDO_ESR" class="Default">
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="30" name="LO_RESET_N" class="Default">
+      <node ref="J5" pin="18" pinfunction="18_18" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="IO48_25" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="MIC_B" class="Default">
+      <node ref="C16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R29" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="13_13" pintype="passive"/>
+    </net>
+    <net code="32" name="MIC_RAW" class="Default">
+      <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="33" name="MODULE_A" class="Default">
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="IO39_32" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="1A_2" pintype="input"/>
+      <node ref="U7" pin="10" pinfunction="10_10" pintype="passive"/>
+    </net>
+    <net code="34" name="MODULE_B" class="Default">
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="IO40_33" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="1B_3" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="35" name="PTT_BUTTON_N" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IO4_4" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="36" name="PTT_PRESSED" class="Default">
+      <node ref="U4" pin="4" pinfunction="Y_4" pintype="output"/>
+      <node ref="U5" pin="1" pinfunction="A_1" pintype="input"/>
+    </net>
+    <net code="37" name="SPEAKER" class="Default">
+      <node ref="C21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="38" name="TX_ARM" class="Default">
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="IO38_31" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="B_2" pintype="input"/>
+    </net>
+    <net code="39" name="TX_ENABLE_N" class="Default">
+      <node ref="U5" pin="4" pinfunction="Y_4" pintype="output"/>
+      <node ref="U6" pin="1" pinfunction="1G_1" pintype="input"/>
+    </net>
+    <net code="40" name="UHF_AUDIO" class="Default">
+      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="41" name="UHF_AUDIO_B" class="Default">
+      <node ref="C14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R26" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="42" name="UHF_MIC" class="Default">
+      <node ref="C15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="43" name="UHF_MIC_B" class="Default">
+      <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="15_15" pintype="passive"/>
+    </net>
+    <net code="44" name="UHF_PD" class="Default">
+      <node ref="J7" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="IO42_35" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="UHF_PTT_N" class="Default">
+      <node ref="J7" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="1Y2_6" pintype="output"/>
+    </net>
+    <net code="46" name="UHF_RX" class="Default">
+      <node ref="J7" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IO18_11" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="UHF_TX" class="Default">
+      <node ref="J7" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="IO21_23" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="USB_DM" class="Default">
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IO19_13" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="USB_DM_CONN" class="Default">
+      <node ref="J4" pin="A7" pinfunction="A7_A7" pintype="passive"/>
+      <node ref="J4" pin="B7" pinfunction="B7_B7" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="50" name="USB_DP" class="Default">
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IO20_14" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="USB_DP_CONN" class="Default">
+      <node ref="J4" pin="A6" pinfunction="A6_A6" pintype="passive"/>
+      <node ref="J4" pin="B6" pinfunction="B6_B6" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="52" name="VBUS_USB" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="A4" pinfunction="A4_A4" pintype="passive"/>
+      <node ref="J4" pin="A9" pinfunction="A9_A9" pintype="passive"/>
+      <node ref="J4" pin="B4" pinfunction="B4_B4" pintype="passive"/>
+      <node ref="J4" pin="B9" pinfunction="B9_B9" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="53" name="VHF_AUDIO" class="Default">
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="54" name="VHF_AUDIO_B" class="Default">
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R24" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="55" name="VHF_MIC" class="Default">
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="56" name="VHF_MIC_B" class="Default">
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R25" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="14_14" pintype="passive"/>
+    </net>
+    <net code="57" name="VHF_PD" class="Default">
+      <node ref="J6" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="IO41_34" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="VHF_PTT_N" class="Default">
+      <node ref="J6" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="1Y1_5" pintype="output"/>
+    </net>
+    <net code="59" name="VHF_RX" class="Default">
+      <node ref="J6" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IO16_9" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="VHF_TX" class="Default">
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IO17_10" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="VMID" class="Default">
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="62" name="VOL_TOP" class="Default">
+      <node ref="C17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="63" name="ZOBEL" class="Default">
+      <node ref="C20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R30" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(J4-PadA8)" class="Default">
+      <node ref="J4" pin="A8" pinfunction="A8_A8" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J4-PadB8)" class="Default">
+      <node ref="J4" pin="B8" pinfunction="B8_B8" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-IO2-Pad38)" class="Default">
+      <node ref="U1" pin="38" pinfunction="IO2_38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-IO3-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="IO3_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-IO35-Pad28)" class="Default">
+      <node ref="U1" pin="28" pinfunction="IO35_28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-IO36-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="IO36_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-IO37-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="IO37_30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-IO43-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="IO43_37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-IO44-Pad36)" class="Default">
+      <node ref="U1" pin="36" pinfunction="IO44_36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-IO45-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="IO45_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-IO46-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="IO46_16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-IO47-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="IO47_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U4-Pad1)" class="Default">
+      <node ref="U4" pin="1" pinfunction="1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U6-Pad7)" class="Default">
+      <node ref="U6" pin="7" pinfunction="7_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U6-Pad9)" class="Default">
+      <node ref="U6" pin="9" pinfunction="9_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U6-Pad10)" class="Default">
+      <node ref="U6" pin="10" pinfunction="10_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U6-Pad11)" class="Default">
+      <node ref="U6" pin="11" pinfunction="11_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U6-Pad12)" class="Default">
+      <node ref="U6" pin="12" pinfunction="12_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U8-Pad1)" class="Default">
+      <node ref="U8" pin="1" pinfunction="1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U8-Pad8)" class="Default">
+      <node ref="U8" pin="8" pinfunction="8_8" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

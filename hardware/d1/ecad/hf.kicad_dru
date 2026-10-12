@@ -1,0 +1,3 @@
+(version 1)
+(rule "Normal copper edge" (constraint edge_clearance (min 0.5mm)))
+(rule "SMA edge launch pads intentionally reach board edge" (condition "A.memberOfFootprint('J3')") (constraint edge_clearance (min 0mm)))

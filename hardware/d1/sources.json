@@ -1,0 +1,343 @@
+[
+  {
+    "id": "esp32",
+    "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+    "file": "hardware/library/esp32.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "27d71971da07c280c6068d08c74720d1a25b8f20cf8494dc1765bdd28d40d435"
+  },
+  {
+    "id": "codec",
+    "url": "https://www.ti.com/lit/ds/symlink/tlv320aic3204.pdf",
+    "file": "hardware/library/codec.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "31b8b4e12b86f4e5c44a125ef671bac9a9d1dd6f20e6c37986da4f2945887ccd"
+  },
+  {
+    "id": "codec_design",
+    "url": "https://www.ti.com/lit/ml/slaa557/slaa557.pdf",
+    "file": "hardware/library/codec_design.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "ffacc36454002e391efe2db43cff1a8714306743fa1f573ce2eec9e840aea387"
+  },
+  {
+    "id": "si5351",
+    "url": "https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si5351-B.pdf",
+    "file": "hardware/library/si5351.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "f3bc5285fccafa3fcd06e9a7fa6abb67fb43e8c23f6147b14caecc9a4851101f"
+  },
+  {
+    "id": "mixer",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf",
+    "file": "hardware/library/mixer.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "e6985bcba97d587dacd05d8953af8ab97a02819429ecca1c337e9889eb1e8f99"
+  },
+  {
+    "id": "flipflop",
+    "url": "https://assets.nexperia.com/documents/data-sheet/74LVC74A.pdf",
+    "file": "hardware/library/flipflop.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "233951158d1e3ac44b5a0d6953858c3613b108d6d2a6484e394fce5e5df27880"
+  },
+  {
+    "id": "opamp",
+    "url": "https://www.ti.com/lit/ds/symlink/tlv9064.pdf",
+    "file": "hardware/library/opamp.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "7a5517d7f74bedddf4b8404fce93e21100d2833a6f4ae16a93f934eaf0c6477c"
+  },
+  {
+    "id": "audio_mux",
+    "url": "https://www.ti.com/lit/ds/symlink/cd74hc4052.pdf",
+    "file": "hardware/library/audio_mux.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "a2df9c83aaa67613ff601357722d0d4c1e233dc54550041cf15abff482f96e6d"
+  },
+  {
+    "id": "audio_amp",
+    "url": "https://www.ti.com/lit/ds/symlink/lm386.pdf",
+    "file": "hardware/library/audio_amp.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "b6019669384baef7ecd038d8dc7931e2a9453d97fae2b3a1d3bf5b88b7e6299b"
+  },
+  {
+    "id": "ldo",
+    "url": "https://www.ti.com/lit/ds/symlink/lm1117.pdf",
+    "file": "hardware/library/ldo.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "c117f5dd97fd15e62c0dee3adbf1af60480a128a10a0f9a9c28aafb8220ec3aa"
+  },
+  {
+    "id": "esd",
+    "url": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "file": "hardware/library/esd.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "failed",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "mosfet",
+    "url": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf",
+    "file": "hardware/library/mosfet.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "cc9c275457670c3cbbf2e56f5a75c800d3b5f0b396fabc798cf18cb639646475"
+  },
+  {
+    "id": "diode",
+    "url": "https://assets.nexperia.com/documents/data-sheet/1N4148W_1N4448W.pdf",
+    "file": "hardware/library/diode.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "failed",
+    "error": "Response is not PDF"
+  },
+  {
+    "id": "usb",
+    "url": "https://gct.co/files/drawings/usb4105.pdf",
+    "file": "hardware/library/usb.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5"
+  },
+  {
+    "id": "vhf",
+    "url": "https://www.dorji.com/docs/data/DRA818V.pdf",
+    "file": "hardware/library/vhf.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": false,
+    "acquisition_note": "Publisher certificate validation failed; cached public PDF originally obtained with curl -k. Hash is integrity tracking, not authentication.",
+    "status": "downloaded",
+    "sha256": "255b878e8d066d6e316c8d66fa4fe6c2089cb5f811d17aacf053b928a78ccd91"
+  },
+  {
+    "id": "uhf",
+    "url": "https://www.dorji.com/docs/data/DRA818U.pdf",
+    "file": "hardware/library/uhf.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": false,
+    "acquisition_note": "Publisher certificate validation failed; cached public PDF originally obtained with curl -k. Hash is integrity tracking, not authentication.",
+    "status": "downloaded",
+    "sha256": "e946cdbc21a7d87c672aeac58c1107a7e6f8204dfb13e5ceb0d904c632068db0"
+  },
+  {
+    "id": "ldo18",
+    "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+    "file": "hardware/library/ldo18.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "d5d9f30657f27c620b7ef579ade01bbf930344b4e9f963c961b6a60bf02f410b"
+  },
+  {
+    "id": "rf_inductor",
+    "url": "https://www.coilcraft.com/getmedia/dd5f20e4-1ff7-43df-8317-b693eb2dce3e/0805cs.pdf",
+    "file": "hardware/library/rf_inductor.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "web_review": "Manufacturer PDF read using web tool; direct download blocked with HTTP 403."
+  },
+  {
+    "id": "buck",
+    "url": "https://www.ti.com/lit/ds/symlink/tps62160.pdf",
+    "file": "hardware/library/buck.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "abc824ca04ee985ede3a513172ccdd2a42c8e1fdcfc3af5acdbe2c1af31aaa72"
+  },
+  {
+    "id": "decoder",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf",
+    "file": "hardware/library/decoder.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "2cd8d95edab7d19b65f907dd3e9f45ae8df3f9a878e3b149e8dfd5c82c44cd3f"
+  },
+  {
+    "id": "nand",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g00.pdf",
+    "file": "hardware/library/nand.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "1264f79853e6119b66d60fe54f1f6e87995c12c00138bd820981fe68febb1063"
+  },
+  {
+    "id": "inverter",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf",
+    "file": "hardware/library/inverter.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "ac04a53de979125799e57ea5a6dff4138fe53e0eceebe45c31f57523669887d5"
+  },
+  {
+    "id": "relay",
+    "url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf",
+    "file": "hardware/library/relay.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "25d2046127b3ffa7e7a2047b7467c67587559e8e05111347260d5a892c0bec57"
+  },
+  {
+    "id": "tantalum",
+    "url": "https://search.kemet.com/download/specsheet/T491B226K016AT",
+    "file": "hardware/library/tantalum.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "c5ebddee45c8399d6b786a1b99e616353955cf855e3db36ee43e82a3e2dd2d16"
+  },
+  {
+    "id": "uart_buffer",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "file": "hardware/library/uart_buffer.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "c76fa723fac4502423967a1aa087dd669106b52b8de620c024b26e56f5d59309"
+  },
+  {
+    "id": "vishay_resistors",
+    "url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "file": "hardware/library/vishay_resistors.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "6c5b9e565e48c4a1d257f200f89041e94b8d18fd1d73078d0f3542cf5b467f34"
+  },
+  {
+    "id": "samtec_headers",
+    "url": "https://suddendocs.samtec.com/catalog_english/tsw.pdf",
+    "file": "hardware/library/samtec_headers.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "buttons",
+    "url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+    "file": "hardware/library/buttons.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "be9cf69e5f43fb7689448a2097c19858e5643c0e2e49cd77d018881543e27a1f"
+  },
+  {
+    "id": "volume",
+    "url": "https://www.bourns.com/docs/product-datasheets/3296.pdf",
+    "file": "hardware/library/volume.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "8492a5d67ee2785d4716ec3131b8fa6f9aaef9fa9e9eff65999b1d1a50d9baef"
+  },
+  {
+    "id": "crystal",
+    "url": "https://abracon.com/Resonators/abm8.pdf",
+    "file": "hardware/library/crystal.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "downloaded",
+    "sha256": "564ac331d8bf38b4ae1222444b0d9cfea3a6ba29148a8be906b2e0ffe40471d8"
+  },
+  {
+    "id": "power_inductor",
+    "url": "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3015et_en.pdf",
+    "file": "hardware/library/power_inductor.pdf",
+    "redistributed": false,
+    "accessed_date": "2026-10-12",
+    "tls_verified": true,
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "product_page": "https://product.tdk.com/en/search/inductor/inductor/smd/info?part_no=VLS3015ET-2R2M",
+    "lifecycle": "Production (NRND), observed 2026-10-12",
+    "mechanical_cross_reference": "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_vls3015e-ca_en.pdf",
+    "footprint_note": "Original oversize hand-assembly pads, 1.2 x 2.8 mm with 1.2 mm gap; manufacturer nominal land pattern uses 1 x 3 mm pads with 1 mm gap. Review wetting and stencil before production."
+  },
+  {
+    "id": "electrolytic",
+    "url": "https://industrial.panasonic.com/tw/products/pt/aluminum-cap-lead/models/EEUFR1A221",
+    "status": "manufacturer_reference",
+    "accessed_date": "2026-10-12",
+    "redistributed": false,
+    "note": "Ordering-code and dimensional review remains necessary."
+  },
+  {
+    "id": "kemet_capacitors",
+    "url": "https://www.kemet.com/en/us/capacitors/ceramic.html",
+    "status": "manufacturer_reference",
+    "accessed_date": "2026-10-12",
+    "redistributed": false,
+    "note": "Ordering-code and dimensional review remains necessary."
+  },
+  {
+    "id": "sma",
+    "url": "https://www.amphenolrf.com/en-us/part/132289/1030/",
+    "status": "manufacturer_reference",
+    "accessed_date": "2026-10-12",
+    "redistributed": false,
+    "note": "Ordering-code and dimensional review remains necessary."
+  }
+]

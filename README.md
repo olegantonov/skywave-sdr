@@ -1,94 +1,77 @@
 # SkyWave SDR
 
-**Rádio portátil open source com ESP32-S3, OLED, PTT, acesso USB e módulos HF/VHF/UHF.**
-Prioridade: baixo custo, montagem incremental e operação autônoma, sem computador
-Linux dentro do aparelho. Projeto independente de Daniel Marques.
+**Transceptor modular open source com ESP32-S3, OLED, PTT e acesso USB.**
+Projeto de Daniel Marques, com prioridade para baixo custo e montagem incremental.
 
-> **D0: arquitetura e firmware de interface. Ainda não recebe nem transmite RF.**
-> A frequência na tela é uma prévia. Não há PCB, cadeia de áudio/RF, DSP de voz,
-> autonomia ou potência validados. Esta versão não é um projeto de fabricação.
+![Modelo 3D SkyWave D1](hardware/d1/renders/assembly.png)
 
-## Requisitos e decisões
+A revisão **D1** inclui circuitos, oito projetos KiCad, seleção de componentes,
+simulações, modelos STEP e gabinete paramétrico em STL. É um protótipo de engenharia:
+nenhuma placa foi fabricada ou ensaiada fisicamente. O firmware disponível ainda é
+de interface e mantém a transmissão bloqueada, pois drivers RF/DSP estão pendentes.
 
-- ESP32-S3 como controlador e processador de banda-base do futuro módulo HF.
-- OLED I²C 128×64: SH1106 como referência; SSD1306 como alternativa econômica.
-- PTT lateral, botões de sintonia/banda, microfone, fone e alto-falante previstos.
-- USB-C para alimentação, programação e console; SMA por módulo de RF.
-- HF SDR e expansões VHF/UHF separadas, com apenas um transmissor ativo por vez.
-- Compra incremental: interface → um módulo RF → outras bandas → bateria/gabinete.
-- Formato portátil inspirado na praticidade do Flipper Zero; sem afiliação ou
-  compatibilidade de firmware prometida.
+## Abrir o projeto
 
-O planejamento aproveita a separação entre hardware, firmware, interface e energia
-estudada no SkySentinel. Todos os arquivos aqui são originais; não foram publicados
-código, esquemas, memórias ou dados privados daquele projeto.
+- **[Circuito, PCB, BOM, ligações e testes D1](hardware/d1/README.md)**
+- [Esquemas e placas KiCad editáveis](hardware/d1/ecad)
+- [PDFs dos esquemas e curvas dos filtros](hardware/d1/plots)
+- [Montagem 3D STEP](hardware/d1/cad/skywave_d1_assembly.step)
+- [Base STL](hardware/d1/cad/enclosure_base.stl) e [tampa STL](hardware/d1/cad/enclosure_lid.stl)
+- [Relatórios ERC/DRC](hardware/d1/reports/checks.json), [simulações](hardware/d1/reports/simulation.json)
+  e [geometria](hardware/d1/reports/mechanical.json)
 
-## SDR e compromisso de custo
+## Arquitetura
 
-| Módulo | Arquitetura proposta | Situação |
-| --- | --- | --- |
-| HF: 40/20/15/10 m | Misturadores I/Q, codec estéreo I²S e DSP no ESP32-S3 | RF/DSP pendentes |
-| VHF: 2 m | DRA818V opcional, voz FM, controle UART | Candidato; driver pendente |
-| UHF: 70 cm | DRA818U opcional, voz FM, controle UART | Candidato; driver pendente |
-| VHF/UHF SDR | Conversores para FI e cadeia I/Q, ou módulo com I/Q acessível | A projetar e cotar |
+| Bloco | Implementação D1 |
+|---|---|
+| Controle | ESP32-S3-WROOM-1-N8, OLED SH1106/SSD1306, botões e PTT físico |
+| Acesso | USB-C de dados/console, GPIO19/20; alimentação externa regulada de 5 V |
+| HF 40/20/15/10 m | Codec TLV320AIC3204, Si5351A, quadratura, misturadores I/Q RX/TX e filtros intercambiáveis |
+| VHF 2 m | DRA818V, FM analógica controlada por UART, fonte e filtro próprios |
+| UHF 70 cm | DRA818U, FM analógica controlada por UART, fonte e filtro próprios |
+| Áudio | Eletreto externo, comutação analógica, LM386 e saída para falante de 8 Ω |
+| Gabinete | Montagem de bancada 164 × 120 × 74 mm; miniaturização posterior |
 
-**A configuração econômica é híbrida.** Os DRA818 processam FM internamente e não
-expõem amostras I/Q ao ESP32. Não equivalem a VHF/UHF SDR aberto. Para SDR também
-nessas bandas será necessário desenvolver a expansão I/Q; isso permanece no
-escopo, mas não está atendido na D0. ESP32 + CC1101/LoRa também não substitui uma
-cadeia SDR de banda-base aberta.
-
-Os intervalos no firmware são perfis de interface, não autorização para transmitir
-ou plano regulatório. Não há promessa de cobertura contínua de HF a UHF,
-potência definida ou recepção e transmissão simultâneas.
-
-## Arquitetura proposta
+**A versão econômica é híbrida.** HF tem arquitetura SDR I/Q; DRA818 VHF/UHF não
+expõem amostras I/Q e não são SDR aberto. A expansão I/Q VHF/UHF continua planejada.
+HF D1 é um excitador de baixo nível, sem PA. Nos DRA, H/L aterrado seleciona potência
+nominal de 0,5 W; potência, sensibilidade e emissões não foram medidas neste projeto.
 
 ```mermaid
 flowchart LR
     UI[OLED + botoes + PTT] <--> MCU[ESP32-S3]
-    USB[USB-C: energia e console] <--> MCU
-    MCU <-->|I2S| CODEC[Codec estereo]
-    MCU -->|I2C| LO[Oscilador + quadratura]
+    USB[USB-C dados] <--> MCU
+    MCU <-->|I2S| CODEC[TLV320AIC3204]
+    MCU -->|I2C| LO[Si5351 + quadratura]
     LO --> HF[Misturadores HF RX/TX]
     CODEC <--> HF
-    HF <--> FILTER[Filtros + T/R + PA]
-    FILTER <--> ANT[SMA HF]
-    MIC[Microfone e fone] <--> ROUTE[Comutacao de audio]
-    ROUTE <--> CODEC
-    MCU -->|UART e controle| V[DRA818V opcional]
-    MCU -->|UART e controle| U[DRA818U opcional]
-    ROUTE <--> V
-    ROUTE <--> U
-    V <--> VF[Filtro + SMA VHF]
-    U <--> UF[Filtro + SMA UHF]
+    HF <--> LPF[Rele T/R + cartucho LC]
+    LPF <--> A[SMA HF]
+    MIC[Microfone / falante] <--> AUDIO[Comutacao de audio]
+    AUDIO <--> CODEC
+    MCU -->|UART| V[DRA818V + filtro]
+    MCU -->|UART| U[DRA818U + filtro]
+    AUDIO <--> V
+    AUDIO <--> U
+    PWR[5 V externo] --> MCU
+    PWR --> BUCK[Fontes RF 4 V]
+    BUCK --> V
+    BUCK --> U
 ```
 
-HF RX: pré-seletor → detector em quadratura → filtro de banda-base → ADC estéreo
-→ DSP → áudio. HF TX: microfone → ADC → DSP SSB → DAC I/Q → modulador em quadratura
-→ driver/PA → filtro passa-baixas. Si5351 e TLV320AIC3204 são candidatos; oscilador,
-fase/divisor, misturadores, amplificação e filtros ainda exigem projeto e medição.
+O planejamento aproveitou a separação entre hardware, firmware, interface e energia
+estudada no SkySentinel. Este repositório é independente: não publica código,
+esquemas, memórias ou dados privados daquele projeto.
 
-48 ksample/s em banda-base é um ponto inicial de engenharia, não desempenho
-demonstrado. RX usa os dois ADCs para I/Q e DAC para áudio; TX usa ADC para microfone
-e os dois DACs para I/Q. Roteamento analógico e configuração do codec mudam por
-estado. SSB, AGC, filtros, calibração I/Q e supressão de portadora não existem ainda.
+## Firmware
 
-VHF/UHF econômicos usam áudio analógico; UART configura o módulo. Níveis lógicos,
-alimentação, drivers PTT/enable, isolamento e filtragem precisam de esquema próprio.
-A porta de expansão interna ainda não tem pinout elétrico definido.
+C++17 com Arduino/PlatformIO. Duas variantes OLED, sintonia por botões, console,
+watchdog e lógica de PTT com timeout de 30 s. A frequência exibida é uma prévia;
+a tela informa `PREVIEW - NO RF` e PTT resulta em `TX BLOQUEADO`.
 
-## Firmware disponível
-
-- C++17, Arduino sobre ESP-IDF, PlatformIO e duas variantes de display.
-- Perfis HF 7/14/21/28 MHz, VHF 144 MHz e UHF 430 MHz; modos exibidos LSB/USB/FM.
-- Botões com debounce, console USB, watchdog e interface OLED.
-- Intertravamentos PTT, timeout de 30 s, invalidação após sintonia e exigência
-  de soltar PTT depois de falha. Testes de limites e wrap do relógio.
-- Sem backend RF: mostra `PREVIEW - NO RF`; pressionar PTT mostra `TX BLOQUEADO`.
-  Nenhum GPIO de transmissão é acionado.
-
-### Compilar e testar
+Na D1, TX_ARM e PD dos módulos permanecem em zero, resets de codec/quadratura
+ativos e seletor de módulo na posição desabilitada. Ainda faltam drivers do codec,
+LO e DRA, DSP SSB, AGC, calibração I/Q e sequência de T/R com tempos medidos.
 
 ```bash
 python3 -m venv .venv
@@ -96,99 +79,34 @@ python3 -m venv .venv
 pip install platformio==6.1.18
 pio run -e esp32s3_oled -e esp32s3_ssd1306
 mkdir -p build
-g++ -std=c++17 -Wall -Wextra -Werror -pedantic \
+g++ -std=c++17 -Wall -Wextra -Werror -pedantic -fsanitize=undefined \
   -Ifirmware/include tests/radio_test.cpp -o build/radio_test
 ./build/radio_test
+python3 tests/hardware_test.py
 ```
 
-Para uma bancada própria com ligações conferidas:
+Console: `?` consulta estado, `+`/`-` sintonizam, `b` troca banda. Não existe
+comando de transmissão remota. GPIOs estão em [`pins.h`](firmware/include/pins.h);
+as ligações completas estão no [guia D1](hardware/d1/README.md).
 
-```bash
-pio run -e esp32s3_oled -t upload
-pio device monitor -b 115200
-```
+## Validação e próximos passos
 
-O alvo usa DevKitC-1 N8, sem depender de PSRAM. Variantes N8R8 precisam de
-conferência antes de ativar PSRAM. Nenhum equipamento foi gravado ou ensaiado
-pelo desenvolvimento D0. Compilar não demonstra funcionamento físico.
+Os relatórios registram o que passou e os achados pendentes. Simulação ngspice,
+ERC/DRC, testes de software e verificação de sólidos 3D não substituem ensaios de
+bancada. PCB, stackup/impedâncias, dissipação, encaixes e acessórios precisam de
+revisão antes da montagem; consultar o estado de fabricação nos relatórios D1.
 
-Validação de 12/10/2026: ambas as variantes compiladas sem avisos no log;
-testes nativos passaram com AddressSanitizer e UndefinedBehaviorSanitizer.
-Cada build reportou 19.168 bytes de RAM estática e 285.313 bytes de flash.
-Esses números excluem heap/pilhas de execução e a futura cadeia DSP/RF.
+A estratégia de custo é montar controle e apenas um módulo inicialmente. O preço
+final ainda não foi cotado. A BOM identifica partes principais e especificações
+de passivos; não é uma lista de compra fechada com frete e montagem.
 
-### Ligações propostas da interface D0
+Próximas etapas: validar fontes e interface, implementar HF RX, ensaiar HF TX em
+carga de 50 Ω, integrar VHF/UHF FM e então desenvolver bateria e miniaturização.
+Os perfis de frequência não são autorização para transmissão nem plano regulatório.
 
-Fonte única: [`firmware/include/pins.h`](firmware/include/pins.h).
-Estas ligações são para uma bancada SkyWave separada.
+## Contribuição e licença
 
-| Sinal | GPIO / ligação |
-| --- | --- |
-| OLED SDA / SCL | 8 / 9; 100 kHz, endereço 0x3C |
-| PTT | 4; botão normalmente aberto para GND |
-| Sintonia − / + | 5 / 6; botões para GND |
-| Próxima banda | 7; botão para GND |
-| USB nativo D− / D+ | 19 / 20; usar o conector da placa |
-| OLED alimentação | Módulo compatível com 3,3 V e pull-ups em 3,3 V |
-| RF / codec / PA | Não atribuídos |
-
-USB-C é requisito do produto: conferir o conector da revisão da DevKit comprada.
-A placa final exigirá circuito próprio de USB-C/CC/ESD e alimentação. Não usar
-GPIOs de USB, boot ou flash/PSRAM para periféricos por inferência.
-
-Console: `?` informa estado, `+`/`-` alteram frequência, `b` muda banda.
-Não existe comando remoto para iniciar transmissão.
-
-## Hardware, energia e custo
-
-[`hardware/bom.csv`](hardware/bom.csv) lista blocos e candidatos; não é uma BOM de
-fabricação. [`hardware/sources.json`](hardware/sources.json) registra fontes e
-hashes de documentos obtidos. PDFs de terceiros não são redistribuídos sob MIT.
-
-A bancada inicial usa USB e fones, sem bateria própria ou gabinete industrial.
-O aparelho final prevê microfone, áudio, PTT, antenas removíveis, USB-C e acesso
-interno de manutenção. Modelos de conectores dependem do esquema elétrico.
-
-**Custo final não cotado.** Valores ficam vazios na BOM até haver cotação rastreável,
-incluindo frete, filtros, conectores e fabricação. A estratégia é montar primeiro
-a interface, depois apenas um módulo de RF, expandindo sem comprar tudo de uma vez.
-
-Antes de escolher bateria, medir RX, DSP e TX, picos, eficiência e aquecimento.
-Carregador, proteção e power-path são outra etapa. Não alimentar módulos RF pelo
-regulador 3,3 V da DevKit. A autonomia de um registrador não se transfere a um rádio.
-
-## Etapas e critérios de aceite
-
-1. **Interface:** compilar ambas as telas e ensaiar OLED, PTT e USB no ESP32.
-2. **HF RX:** fechar codec/LO/quadratura/filtros; implementar I²S/DSP; medir
-   ruído, rejeição de imagem e processamento sem perder blocos.
-3. **HF TX:** implementar SSB e T/R; medir espectro, potência e espúrios em
-   carga de 50 Ω antes de operar com antena.
-4. **VHF/UHF FM:** esquemas, energia, UART com resposta/timeout, áudio, filtros
-   e intertravamento físico de um único transmissor.
-5. **VHF/UHF SDR:** projetar conversão/IF, cotar e implementar cadeia I/Q aberta.
-6. **Portátil:** bateria, autonomia medida, gabinete, ergonomia, conectores,
-   coexistência eletromagnética e revisão para fabricação.
-
-Operação RF deve observar as autorizações e condições aplicáveis à faixa e ao
-operador. O firmware não implementa plano regulatório brasileiro. D0 não é um
-equipamento homologado ou projeto liberado para fabricação.
-
-## Contribuir e licença
-
-Abra issue e envie PR com teste ou evidência de bancada. Use Conventional Commits.
-Registre fontes/revisões dos componentes, separando hipótese, simulação e medição.
-Não publique credenciais e não trate compilação como ensaio RF.
-
-Código e arquivos originais: [MIT](LICENSE). Dependências, módulos e datasheets
-mantêm suas licenças. MIT não relicencia hardware comercial nem firmware de módulos.
-
-### Fontes primárias
-
-- [ESP32-S3](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
-- [USB ESP32-S3](https://docs.espressif.com/projects/esp-usb/en/latest/esp32s3/usb_device.html)
-- [TI TLV320AIC3204](https://www.ti.com/product/TLV320AIC3204)
-- [Skyworks Si5351](https://www.skyworksinc.com/-/media/SkyWorks/SL/documents/public/data-sheets/Si5351-B.pdf)
-- [Dorji DRA818V](https://www.dorji.com/docs/data/DRA818V.pdf)
-- [Dorji DRA818U](https://www.dorji.com/docs/data/DRA818U.pdf)
-- [U8g2](https://github.com/olikraus/u8g2)
+Contribuições por issues e PRs, com Conventional Commits e evidências de testes.
+Arquivos originais: [MIT](LICENSE). Footprints KiCad mantêm sua
+[licença própria](hardware/d1/ecad/SkyWave.pretty/LICENSE.md). Dependências,
+datasheets e módulos comerciais mantêm as respectivas licenças.
